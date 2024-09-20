@@ -8,4 +8,6 @@
 https://swiftfiddle.com/ - pro kompilaci Swiftu
 
 
-# 21/09/2024
+# 18/10/2024
+# 15/11/2024
+# 13/12/2024
