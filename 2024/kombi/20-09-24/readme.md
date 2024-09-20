@@ -4,6 +4,7 @@
 * Úvod
 * Swift
 * SwiftUI
+* prezentace 01-04
 
 https://swiftfiddle.com/ - pro kompilaci Swiftu
 
