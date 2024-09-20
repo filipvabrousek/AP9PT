@@ -1,3 +1,5 @@
+# Proměnné a konstanty
+```
 print("Hello World!")
 
 var amount = 500
@@ -5,14 +7,24 @@ print(amount)
 
 let pi = 3.141592
 print(pi)
+```
 
 
+## Podmínky
+
+```swift
 if (pi > 3){
   print("pi is greater than 3.")
 } else {
   print("Less than or equal to three.")
 }
 
+```
+
+
+## Funkce
+
+```swift
 func greet(){
   print("Hello")
 }
@@ -32,6 +44,49 @@ func S(a: Double, b: Double) -> Double {
 
 let result = S(a: 2, b: 3);
 print(result)
+
+```
+
+
+```swift
+
+// 
+
+func square(_ a: Double) -> Double {
+  a * a
+}
+
+
+func squareNameArg(value a: Double) -> Double {
+  a * a
+}
+
+
+let resultaa = square(16) // no argument needed
+print("Result \(resultaa)")
+
+
+let resultad = squareNameArg(value: 16) // named argument
+print("Result \(resultad)")
+
+
+// Default argument name
+func circleArea(pi: Double = 3.141592, r: Double) -> Double {
+  return pi * r * r
+}
+
+let res = circleArea(pi: 3, r: 20)
+print(res)
+
+let resd = circleArea(r: 20)
+print(resd)
+
+```
+
+
+
+
+
 
 struct Person { // value type, class
   var name: String
@@ -97,37 +152,6 @@ if let unwrappedName = name {
 
 
 
-
-// 
-
-func square(_ a: Double) -> Double {
-  a * a
-}
-
-
-func squareNameArg(value a: Double) -> Double {
-  a * a
-}
-
-
-let resultaa = square(16) // no argument needed
-print("Result \(resultaa)")
-
-
-let resultad = squareNameArg(value: 16) // named argument
-print("Result \(resultad)")
-
-
-// Default argument name
-func circleArea(pi: Double = 3.141592, r: Double) -> Double {
-  return pi * r * r
-}
-
-let res = circleArea(pi: 3, r: 20)
-print(res)
-
-let resd = circleArea(r: 20)
-print(resd)
 
 
 
