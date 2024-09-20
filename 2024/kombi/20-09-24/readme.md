@@ -1,6 +1,8 @@
 # 20/09/2024
 
-* Podmínky
+## Podmínky
+Test v Moodle
+ 
 * Úvod
 * Swift
 * SwiftUI
