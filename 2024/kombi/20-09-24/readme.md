@@ -3,3 +3,5 @@
 * Úvod
 * Swift
 * SwiftUI
+
+https://swiftfiddle.com/ - pro kompilaci Swiftu
