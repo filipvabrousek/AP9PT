@@ -1,5 +1,5 @@
 # Proměnné a konstanty
-```
+```swift
 print("Hello World!")
 
 var amount = 500
@@ -87,7 +87,9 @@ print(resd)
 
 
 
+## Struktury
 
+```swift
 struct Person { // value type, class
   var name: String
   init(name: String){
@@ -101,8 +103,11 @@ struct Person { // value type, class
 
 let p = Person(name: "Filip")
 print(p.introduce())
+```
 
 
+## Protokoly
+```swift
 protocol Named {
   var name: String { get set }
 }
@@ -123,13 +128,16 @@ func getStudent(student: Student) -> some Named {
 
 let sa = getStudent(student: s)
 print(sa.name)
+```
 
 
 
 
 
 
+## Optionals
 
+```swift
 // Optionals
 var name: String? = "Filip" // Optional
 // may or may not have value
@@ -145,13 +153,15 @@ if let unwrappedName = name {
   print(unwrappedName)
 }
 
+
+
+
 // User(name: String, born: Int?)
 // User(name: "Eda", born: nil)
-
 // if born != nil
 
 
-
+```
 
 
 
