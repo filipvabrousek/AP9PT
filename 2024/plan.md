@@ -1,6 +1,6 @@
 # Plan - subject to change
 
-## Prez 
+# Prez 
 
 ### 21/10
 * UIKit Storybaord + programmatic basics
@@ -30,7 +30,8 @@
 ## Prosinec
 * práce na projektech
   
-  
+
+# Kombi
 ### Kombi pre-last
 * API fetch
 * watchOS
