@@ -20,6 +20,7 @@
 
 ### 17/11
 * MapKit
+* CoreLocation
 * Documentation
 
 ### 25/11
@@ -36,9 +37,15 @@
 * API fetch
 * watchOS
 * App Icon
+* App Intents
+* visionOS
+* Storybard
 
 ### Kombi-last
 * visionOS
 * visionOS Immersive spaces
+* MapKit
+* CoreLocation
+* Apple Intelligence
 
   
