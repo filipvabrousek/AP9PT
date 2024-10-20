@@ -3,7 +3,7 @@
 # Prez 
 
 ### 21/10
-* UIKit Storybaord + programmatic basics
+* UIKit Storyboard + programmatic basics
 * Extensions + viewModifier
 * API fetch
 
@@ -11,8 +11,7 @@
 * samostatná práce
   
 ### 04/11
-* cvičení AMOK
-* odpadá
+* cvičení odpadá (AMOK)
 
 ### 11/11
 * watchOS app
@@ -23,12 +22,11 @@
 ### 17/11
 * NavigationStack
 * MapKit + CoreLocation
-* Documentation
 
 ### 25/11
 * App Intents
 * Apple Intelligence
-* Dynamic Island Extension
+
 
 ## Prosinec
 * práce na projektech
