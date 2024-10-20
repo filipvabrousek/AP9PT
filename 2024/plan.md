@@ -11,16 +11,18 @@
 * samostatná práce
   
 ### 04/11
-* watchOS app
-* visionOS Baics
+* cvičení AMOK
+* odpadá
 
 ### 11/11
+* watchOS app
+* visionOS Baics
 * visionOS Immersive space
 * more visionOS in depth
 
 ### 17/11
-* MapKit
-* CoreLocation
+* NavigationStack
+* MapKit + CoreLocation
 * Documentation
 
 ### 25/11
@@ -30,7 +32,6 @@
 
 ## Prosinec
 * práce na projektech
-  
 
 # Kombi
 ### Kombi pre-last
