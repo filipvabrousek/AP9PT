@@ -41,6 +41,7 @@
 * Storybard
 
 ### Kombi-last
+* NavigationStack
 * visionOS
 * visionOS Immersive spaces
 * MapKit
