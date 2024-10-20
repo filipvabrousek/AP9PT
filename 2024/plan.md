@@ -7,7 +7,7 @@
 * Extensions + viewModifier
 * API fetch
 
-### 28/10
+### 29/10
 * samostatná práce
   
 ### 04/11
