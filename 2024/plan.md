@@ -15,7 +15,7 @@
 
 ### 11/11
 * watchOS app
-* visionOS Baics
+* visionOS Basics
 * visionOS Immersive space
 * more visionOS in depth
 
