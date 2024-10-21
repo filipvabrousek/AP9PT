@@ -16,7 +16,8 @@
 * samostatná práce
   
 ### 04/11
-* cvičení odpadá (AMOK)
+* 10:00 - 11:40 cvičení odpadá (AMOK)
+* 16:00 - 17:40 cvičení proběhne
 
 ### 11/11
 * NavigationStack
