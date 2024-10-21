@@ -18,7 +18,7 @@
 ### 04/11
 * cvičení odpadá (AMOK)
 
-* ### 11/11
+### 11/11
 * NavigationStack
 * MapKit + CoreLocation
 
