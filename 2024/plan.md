@@ -32,6 +32,7 @@
 
 
 ## Prosinec
+* 1. termín testu pro zájemce
 * práce na projektech
 
 # Kombi
