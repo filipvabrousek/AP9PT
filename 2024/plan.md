@@ -29,6 +29,7 @@
 ### 25/11
 * App Intents
 * Apple Intelligence
+* UIViewRepresentable
 
 
 ## Prosinec
