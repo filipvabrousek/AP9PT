@@ -13,7 +13,7 @@
 * státní svátek
 
 ### 29/10
-* samostaná práce
+* samostatná práce
   
 ### 04/11
 * cvičení odpadá (AMOK)
