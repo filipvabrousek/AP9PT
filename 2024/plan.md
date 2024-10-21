@@ -18,21 +18,20 @@
 ### 04/11
 * cvičení odpadá (AMOK)
 
-### 11/11
+* ### 11/11
+* NavigationStack
+* MapKit + CoreLocation
+
+### 18/11
 * watchOS app
 * visionOS Basics
 * visionOS Immersive space
 * more visionOS in depth
 
-### 18/11
-* NavigationStack
-* MapKit + CoreLocation
-
 ### 25/11
 * App Intents
 * Apple Intelligence
 * UIViewRepresentable
-
 
 ## Prosinec
 * termín testu pro zájemce
