@@ -7,8 +7,8 @@
 * Extensions + viewModifier
 * API fetch
 
-### 29/10
-* samostatná práce
+### 28/10
+* státní svátek
   
 ### 04/11
 * cvičení odpadá (AMOK)
