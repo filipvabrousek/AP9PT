@@ -5,8 +5,8 @@
 ### 21/10
 * UIKit Storyboard ✅
 * programmatic basics ✅
-* Extensions
-* viewModifier
+* Extensions ✅
+* viewModifier ✅
 * API fetch
 
 ### 28/10
