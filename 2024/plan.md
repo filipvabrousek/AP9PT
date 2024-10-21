@@ -7,7 +7,7 @@
 * programmatic basics ✅
 * Extensions ✅
 * viewModifier ✅
-* API fetch
+* API fetch ✅
 
 ### 28/10
 * státní svátek ✅
