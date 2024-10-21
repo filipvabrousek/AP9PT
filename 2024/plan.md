@@ -3,7 +3,7 @@
 # Prez 
 
 ### 21/10
-* UIKit Storyboard + programmatic basics
+* UIKit Storyboard + programmatic basics ✅
 * Extensions + viewModifier
 * API fetch
 
