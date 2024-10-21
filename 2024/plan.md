@@ -10,7 +10,7 @@
 * API fetch
 
 ### 28/10
-* státní svátek
+* státní svátek ✅
 
 ### 29/10
 * samostatná práce
