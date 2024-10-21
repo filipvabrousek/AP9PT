@@ -19,7 +19,7 @@
 * visionOS Immersive space
 * more visionOS in depth
 
-### 17/11
+### 18/11
 * NavigationStack
 * MapKit + CoreLocation
 
