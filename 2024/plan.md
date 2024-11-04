@@ -13,15 +13,17 @@
 * státní svátek ✅
 
 ### 29/10
-* samostatná práce
+* samostatná práce ✅
   
 ### 04/11
-* 10:00 - 11:40 cvičení odpadá (AMOK)
-* 16:00 - 17:40 cvičení proběhne
+* 10:00 - 11:40 cvičení odpadá (AMOK) ✅
+* 16:00 - 17:40 cvičení proběhne ✅
+* NavigationStack (1. skup) ✅
 
 ### 11/11
-* NavigationStack
-* MapKit + CoreLocation
+* MapKit + CoreLocation (1. skup)
+* NavigationStack (2. skup)
+
 
 ### 18/11
 * watchOS app
