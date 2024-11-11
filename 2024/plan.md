@@ -23,15 +23,17 @@
 
 ### 11/11
 * NavigationStack, Mapkit basics (1. skup) ✅
-* MapKit + CoreLocation (2. skup)
-
+* MapKit + CoreLocation (2. skup 12/11)
+* LazyVGrid, LazyHGrid
 
 
 ### 18/11
+* LazyVGrid, LazyHGrid 1.sk, (2. skup 19/11)
 * watchOS app
 * visionOS Basics
 * visionOS Immersive space
 * more visionOS in depth
+
 
 ### 25/11
 * App Intents
