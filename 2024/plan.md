@@ -19,7 +19,7 @@
 * 10:00 - 11:40 cvičení odpadá (AMOK) ✅
 * 16:00 - 17:40 cvičení proběhne ✅
 * NavigationStack (2. skup) ✅
-* Mapkit basics (2. skup) ✅
+* MapKit basics (2. skup) ✅
 
 ### 11/11
 * NavigationStack, Mapkit basics (1. skup) ✅
