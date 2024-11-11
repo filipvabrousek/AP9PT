@@ -26,7 +26,7 @@
 * LazyVGrid, LazyHGrid  ✅
 * Timer app  ✅
 
-## 12/11
+### 12/11
 * MapKit + CoreLocation (2. skup 12/11)
 
 ### 18/11
