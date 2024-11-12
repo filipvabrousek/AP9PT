@@ -28,8 +28,8 @@
 
 ### 12/11
 * MapKit  (2. skup 12/11) ✅
-* Timer app
-* LazyVGrid, LazyHGrid 1.sk, (2. skup 19/11)
+* Timer app ✅
+* LazyVGrid, LazyHGrid 1.sk ✅
 
 ### 18/11
 * watchOS app
