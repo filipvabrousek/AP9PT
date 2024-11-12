@@ -27,11 +27,11 @@
 * Timer app  ✅
 
 ### 12/11
-* MapKit + CoreLocation (2. skup 12/11)
+* MapKit  (2. skup 12/11) ✅
+* Timer app
+* LazyVGrid, LazyHGrid 1.sk, (2. skup 19/11)
 
 ### 18/11
-* LazyVGrid, LazyHGrid 1.sk, (2. skup 19/11)
-* Timer app
 * watchOS app
 * visionOS Basics
 * visionOS Immersive space
@@ -54,7 +54,7 @@
 * App Intents
 * visionOS
 * Storyboard
-* UIViewrepresentable
+* UIViewRepresentable
 
 ### Kombi-last
 * NavigationStack
