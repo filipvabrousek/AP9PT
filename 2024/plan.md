@@ -28,9 +28,9 @@
 
 ### 12/11
 * MapKit  (2. skup 12/11) ✅
-* Timer app ✅
 * LazyVGrid, LazyHGrid 1.sk ✅
-
+* Timer app (fix stopping at 30s)
+  
 ### 18/11
 * watchOS app
 * visionOS Basics
