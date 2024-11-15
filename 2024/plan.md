@@ -63,6 +63,7 @@ With
 * UIHostingController
 
 ## Prosinec
+* SZZ otázky poskytnout
 * termín testu pro zájemce
 * práce na projektech
 
