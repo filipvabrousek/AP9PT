@@ -66,7 +66,7 @@ With
 * práce na projektech
 
 # Kombi
-### Kombi pre-last
+### Kombi pre-last 15/11
 * API fetch
 * watchOS
 * App Icon
