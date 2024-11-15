@@ -71,9 +71,7 @@ With
 ### Kombi pre-last 15/11
 * API fetch  ✅
 * App Icon  ✅
-* watchOS 
-* visionOS
-* App Intents 
+* visionOS ✅
 * Storyboard  ✅
 * UIViewRepresentable  ✅
 * UIHostingController ✅
@@ -97,7 +95,8 @@ použití UIKit.
 ### Kombi-last
 * SZZ otázky
 * NavigationStack
-* visionOS
+* watchOS
+* App Intents 
 * visionOS Immersive spaces
 * MapKit
 * CoreLocation
