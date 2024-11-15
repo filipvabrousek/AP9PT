@@ -60,6 +60,7 @@ With
 * App Intents
 * Apple Intelligence
 * UIViewRepresentable
+* UIHostingController
 
 ## Prosinec
 * termín testu pro zájemce
@@ -74,6 +75,7 @@ With
 * visionOS
 * Storyboard  ✅
 * UIViewRepresentable  ✅
+* UIHostingController ✅
 * pre-last presentation   ✅
 
 ### Kombi-last
