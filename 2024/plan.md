@@ -69,8 +69,8 @@ With
 
 # Kombi
 ### Kombi pre-last 15/11
-* API fetch 
-* App Icon 
+* API fetch  ✅
+* App Icon  ✅
 * watchOS 
 * visionOS
 * App Intents 
