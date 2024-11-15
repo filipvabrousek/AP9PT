@@ -72,8 +72,9 @@ With
 * App Icon
 * App Intents
 * visionOS
-* Storyboard
-* UIViewRepresentable
+* Storyboard  ✅
+* UIViewRepresentable  ✅
+* pre-last presentation   ✅
 
 ### Kombi-last
 * NavigationStack
