@@ -68,11 +68,11 @@ With
 
 # Kombi
 ### Kombi pre-last 15/11
-* API fetch (1)
-* App Icon (2)
-* watchOS (3)
-* visionOS (4)
-* App Intents (5)
+* API fetch 
+* App Icon 
+* watchOS 
+* visionOS
+* App Intents 
 * Storyboard  ✅
 * UIViewRepresentable  ✅
 * UIHostingController ✅
