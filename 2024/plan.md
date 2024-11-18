@@ -34,7 +34,7 @@
 ### 18/11 (sk.1)
 * Game ✅
 
-* *sk. 2.:**
+* **sk. 2.:**
 * watchOS app
 * UIViewRepresentable
 * UIHostingController
