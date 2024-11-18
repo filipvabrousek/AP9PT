@@ -31,7 +31,8 @@
 * LazyVGrid, LazyHGrid 1.sk ✅
 * Timer app (Game) ✅
 
-### 18/11 (sk.1)
+### 18/11 
+* **(sk.1)** *
 * Game ✅
 
 * **sk. 2.:**
