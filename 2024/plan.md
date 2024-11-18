@@ -44,16 +44,15 @@
 ### 25/11
 
 * **sk 1**
-* UIViewRepresentable
 * UIHostingController
+* UIViewRepresentable
 * watchOS
-* visionOS
+* visionOS (basics, Space, 3D)
 
 * **sk2**
 * visionOS Basics
 * visionOS Immersive space
-* more visionOS in depth
-
+* Model3D
 ----------------------------------------------------------------------------------------------------------------
 
 ## Prosinec
