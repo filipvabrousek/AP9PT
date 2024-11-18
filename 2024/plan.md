@@ -55,16 +55,16 @@
 
 ----------------------------------------------------------------------------------------------------------------
 
-### 01/12
-* App Intents
-* Apple Intelligence
-* začátek práce na projektech
-
-
 ## Prosinec
 * SZZ otázky poskytnout
 * termín testu pro zájemce
 * práce na projektech
+* App Intents
+* Apple Intelligence
+
+
+
+
 
 # Kombi
 ### Kombi pre-last 15/11
