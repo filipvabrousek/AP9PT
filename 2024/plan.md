@@ -49,6 +49,7 @@
 * **sk 1**
 * UIViewRepresentable
 * UIHostingController
+* visionOS
 
 ### 01/12 (sk. 1)
 * App Intents
