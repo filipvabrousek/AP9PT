@@ -29,25 +29,7 @@
 ### 12/11
 * MapKit  (2. skup 12/11) ✅
 * LazyVGrid, LazyHGrid 1.sk ✅
-* Timer app ✅
-
-To fix stop at 30 seconds replace ```self.remaining``` with ```self.totalDuration```
-
-
-
-Replace
-```swift
- if self.elapsedTime < self.remaining {
-                self.elapsedTime += 0.5
-                self.remaining = 60 - self.elapsedTime
-```
-
-With
-```swift
- if self.elapsedTime < self.totalDuration {
-                self.elapsedTime += 0.5
-                self.remaining = 60 - self.elapsedTime
-```
+* Timer app (Game) ✅
 
 ### 18/11 (sk.1)
 * Game ✅
