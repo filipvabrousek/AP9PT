@@ -37,8 +37,8 @@
 
 * **sk. 2.:**
 * watchOS app  ✅
-* UIViewRepresentable
-* UIHostingController
+* UIViewRepresentable ✅
+* UIHostingController ✅
 
 ----------------------------------------------------------------------------------------------------------------
 ### 25/11
