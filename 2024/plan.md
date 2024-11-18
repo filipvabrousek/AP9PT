@@ -49,14 +49,16 @@ With
                 self.remaining = 60 - self.elapsedTime
 ```
 
+### 18/11 (sk.1)
+* Game ✅
   
-### 18/11
+### 25/11
 * watchOS app
 * visionOS Basics
 * visionOS Immersive space
 * more visionOS in depth
 
-### 25/11
+### 01/12 (sk. 1)
 * App Intents
 * Apple Intelligence
 * UIViewRepresentable
