@@ -42,16 +42,16 @@
 ----------------------------------------------------------------------------------------------------------------
 ### 25/11
 
-* **sk2**
-* visionOS Basics
-* visionOS Immersive space
-* more visionOS in depth
-
 * **sk 1**
 * UIViewRepresentable
 * UIHostingController
 * watchOS
 * visionOS
+
+* **sk2**
+* visionOS Basics
+* visionOS Immersive space
+* more visionOS in depth
 
 ----------------------------------------------------------------------------------------------------------------
 
