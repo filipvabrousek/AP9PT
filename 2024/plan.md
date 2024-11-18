@@ -33,18 +33,27 @@
 
 ### 18/11 (sk.1)
 * Game ✅
+
+* *sk. 2.:**
+* watchOS app
+* UIViewRepresentable
+* UIHostingController
   
 ### 25/11
-* watchOS app
+
+* **sk2**
 * visionOS Basics
 * visionOS Immersive space
 * more visionOS in depth
 
+* **sk 1**
+* UIViewRepresentable
+* UIHostingController
+
 ### 01/12 (sk. 1)
 * App Intents
 * Apple Intelligence
-* UIViewRepresentable
-* UIHostingController
+
 
 ## Prosinec
 * SZZ otázky poskytnout
