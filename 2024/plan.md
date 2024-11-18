@@ -35,7 +35,7 @@
 * Game ✅
 
 * **sk. 2.:**
-* watchOS app
+* watchOS app  ✅
 * UIViewRepresentable
 * UIHostingController
 
