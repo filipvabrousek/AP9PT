@@ -57,3 +57,15 @@ struct ShortuctsProvider: AppShortcutsProvider { // Neither struct nor class wor
     }
 
 ```
+
+
+```swift
+class Passer: ObservableObject {
+    @Published var tasks = [Task]()
+
+    func fetch() {
+        let m = TaskManager(ename: "Tasks", key: "tasks", obj: .init(title: "", due: "", content: "", subject: "", color: "", CZDate: "", CZHour: ""))
+        tasks = m.fetchU()
+    }
+}
+```
