@@ -1,4 +1,4 @@
-SwiftUI in UIKit
-UIKit in SwiftUI
-watchOS
-visionOS
+* SwiftUI in UIKit
+* UIKit in SwiftUI
+* watchOS
+* visionOS
