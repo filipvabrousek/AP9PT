@@ -51,9 +51,9 @@
 * https://deadsimplescreensharing.com/
 
 #### **sk2**
-* visionOS Basics
-* visionOS Immersive space
-* Model3D
+* visionOS Basics ✅
+* visionOS Immersive space ✅
+* Model3D ✅
 
 ----------------------------------------------------------------------------------------------------------------
 
