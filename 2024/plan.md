@@ -46,14 +46,15 @@
 #### **sk 1**
 * UIHostingController ✅
 * UIViewRepresentable ✅
-* watchOS (Stepper, SF Symbols, navigation)
+* watchOS (Stepper, SF Symbols, navigation)  ✅
 * visionOS (basics, Space, 3D)
+* https://deadsimplescreensharing.com/
 
 #### **sk2**
 * visionOS Basics
 * visionOS Immersive space
 * Model3D
-* https://deadsimplescreensharing.com/
+
 ----------------------------------------------------------------------------------------------------------------
 
 ## Prosinec
