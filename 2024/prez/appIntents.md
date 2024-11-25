@@ -69,3 +69,49 @@ class Passer: ObservableObject {
     }
 }
 ```
+
+
+# SceneDelegate.swift
+
+```swift
+
+class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+
+    var window: UIWindow?
+    
+    var mana: Passer? = nil
+    
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
+        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
+        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+
+        // Get the managed object context from the shared persistent container.
+        //let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        
+        let context = PersistenceService.persistentContainer.viewContext
+        
+        let man = Passer()
+        if #available(iOS 16.0, *) {
+            AppDependencyManager.shared.add(dependency: man)
+        } else {
+            // Fallback on earlier versions
+        }
+        man.fetch()
+        mana = man
+        // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
+        // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
+      
+       // ShortcutsP
+        // TaskNumberIntent
+        //  TrailShortcuts.updateAppShortcutParameters()
+        
+        if #available(macCatalyst 18.0, iOS 18.0, *) {
+            
+                ShortuctsProvider.updateAppShortcutParameters()
+          
+        } else {
+            // Fallback on earlier versions
+        }
+```
