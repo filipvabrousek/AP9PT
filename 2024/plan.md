@@ -58,11 +58,12 @@
 ----------------------------------------------------------------------------------------------------------------
 
 ## Prosinec
-sk:1
+* sk:1 10-12 and 03/12 16-18
 * App Intents
 * Apple Intelligence
+  
 
-sk2:
+* sk2: 16-18
 * SZZ otázky poskytnout
 * termín testu pro zájemce (09/12)
 * práce na projektech
