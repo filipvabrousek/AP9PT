@@ -55,6 +55,15 @@
 * visionOS Immersive space ✅
 * Model3D ✅
 
+### 26/11 
+#### ***sk 2***
+* visionOS Basics ✅
+* visionOS Immersive space ✅
+* Model3D ✅
+* App Intents
+* Apple Intelligence
+  
+
 ----------------------------------------------------------------------------------------------------------------
 
 ## Prosinec
@@ -64,9 +73,12 @@
   
 
 ## sk2: 16-18
+## sk3 (úterý)
 * SZZ otázky poskytnout
 * termín testu pro zájemce (09/12)
 * práce na projektech
+
+
 
 
 
