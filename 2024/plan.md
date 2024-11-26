@@ -76,7 +76,7 @@
 * práce na projektech
 
 ### navíc pro sk. 3 (úterý 03/12)
-
+změny v souboru ```TaskNumberIntent.swift```
 ```swift
 @AssistantIntent(schema: .system.search)
 struct TaskNumberIntent: AppIntent {
