@@ -65,18 +65,44 @@
   
 
 ----------------------------------------------------------------------------------------------------------------
-
 ## Prosinec
 ## sk:1 10-12
 * App Intents
 * Apple Intelligence
-  
 
 ## sk2: 16-18
 ## sk3 (úterý)
 * SZZ otázky poskytnout
 * termín testu pro zájemce (09/12)
 * práce na projektech
+
+### navíc pro sk. 3 (úterý 03/12)
+
+```swift
+@AssistantIntent(schema: .system.search)
+struct TaskNumberIntent: AppIntent {
+    static var title: LocalizedStringResource = "Number of tasks"
+    
+    static var searchScopes: [StringSearchScope] = [.general]
+
+```
+
+AppShortcut.swift
+```swift
+import AppIntents
+
+@available(iOS 18.0, *)
+struct ShortcutsProvider: AppShortcutsProvider {
+    static var appShortcuts: [AppShortcut] {
+        AppShortcut(intent: TaskNumberIntent(),
+                    phrases: ["My task number"],
+                    shortTitle: "Task number", systemImageName: "sparkle.magnifyingglass")
+    }
+    
+    static var shortcutTileColor: ShortcutTileColor = .orange
+}
+```
+  
 
 
 
