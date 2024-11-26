@@ -60,14 +60,14 @@
 * visionOS Basics ✅
 * visionOS Immersive space ✅
 * Model3D ✅
-* App Intents
-* Apple Intelligence
+* App Intents ✅ (dokončíme během 5 min na dalším cvičení)
+* Apple Intelligence ✅
   
 
 ----------------------------------------------------------------------------------------------------------------
 
 ## Prosinec
-## sk:1 10-12 and 03/12 16-18
+## sk:1 10-12
 * App Intents
 * Apple Intelligence
   
