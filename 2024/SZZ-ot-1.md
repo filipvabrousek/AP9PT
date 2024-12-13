@@ -46,6 +46,6 @@
 ## Problémy MVC
 - **Tlustý controller**: Pokud není MVC správně implementováno, může controller obsahovat příliš mnoho logiky, což ztěžuje jeho údržbu.  
 
-Obrázek: prezentace 05, nadpis 1.6
+Obrázek: prezentace 05, nadpis 1.6 (Tok dat v rámci MVC)
 
 
