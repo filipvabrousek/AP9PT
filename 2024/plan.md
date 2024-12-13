@@ -126,12 +126,12 @@ struct ShortcutsProvider: AppShortcutsProvider {
 
 * 7. Stručné představení mobilní platformy iOS a běžně používaných vývojářských nástrojů.
 Vývojářské účty pro implementaci a distribuci iOS aplikací. Rozdělení iOS frameworků a stručné
-představení návrhového vzoru MVC v rámci vývoje iOS aplikací. 
+představení návrhového vzoru MVC v rámci vývoje iOS aplikací.  ✅
 
 * 18. Možnosti návrhu uživatelského rozhraní mobilní aplikace na platformě iOS – stručný popis
 principu návrhu rozhraní pomocí Storyboard. Představení frameworku UIKit a základní
 funkcionality, které poskytuje. Stručné představení frameworku SwiftuUI a hlavní výhody oproti
-použití UIKit. 
+použití UIKit.  ✅
 
 
 
