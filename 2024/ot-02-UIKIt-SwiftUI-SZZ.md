@@ -31,7 +31,7 @@ SwiftUI je moderní, deklarativní framework pro tvorbu uživatelského rozhran�
 - **Deklarativní syntaxe**: Návrh UI pomocí kódu, který popisuje, *co* má být zobrazeno, místo *jak*. - jádro = tvorba vlastních a používání vestavěných view
 - všechny používajíí protokol ```View``` (něco jako interface v C#)
 
-    ```swift
+```swift
 struct MyView: View {
     var body: some View {
         Text("Hello, world!")
@@ -39,7 +39,7 @@ struct MyView: View {
             .foregroundColor(.blue)
     }
 }
-    ```  
+```  
 - **Automatická podpora Dark Mode**: UI se automaticky přizpůsobuje světlému a tmavému režimu.  
 - **Dynamické náhledy**: Možnost okamžitě vidět změny v UI přímo v Xcode.  
 - **Reaktivní přístup**: Automatická aktualizace UI při změnách stavu dat pomocí `@State`, `@Binding`, nebo `ObservableObject`.  
