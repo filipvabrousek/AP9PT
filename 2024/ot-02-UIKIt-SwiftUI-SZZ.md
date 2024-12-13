@@ -17,7 +17,7 @@ UIKit je tradiční framework pro vytváření uživatelského rozhraní v iOS a
 - **Ovládání interakcí**: Poskytuje API pro dotyková gesta, přetahování a další vstupy uživatele.  
 - **Animace**: Možnost vytvářet komplexní animace, přechody a transformace.  
 - **Navigace a řízení obrazovek**: Třídy jako `UINavigationController` a `UITabBarController`.  
-- **Integrace médií**: Práce s obrázky, zvukem a videem.  
+- **Integrace médií**: Práce s obrázky, zvukem a videem (```UIImageView```)
 
 ### Výhody UIKit
 - Dlouhodobě zavedený framework, široká komunita a rozsáhlá dokumentace.  
