@@ -141,6 +141,6 @@ použití UIKit.  ✅
 * watchOS ✅
 * visionOS Immersive spaces ✅
 * MapKit, CoreLocation ✅
-App Intents, Apple Intelligence ✅
+* App Intents, Apple Intelligence ✅
 
   
