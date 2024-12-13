@@ -146,5 +146,6 @@ použití UIKit.  ✅
 ### Projekt
 * časová náričnost 4 hodiny
 * upřesním e-mailem
+* obhajoby, online leden MS Teams
 
   
