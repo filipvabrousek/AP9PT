@@ -1,4 +1,4 @@
-Možnosti návrhu uživatelského rozhraní mobilní aplikace na platformě iOS – stručný popis principu návrhu rozhraní pomocí Storyboard. Představení frameworku UIKit a základní funkcionality, které poskytuje. Stručné představení frameworku SwiftuUI a hlavní výhody oproti použití UIKit.
+**Možnosti návrhu uživatelského rozhraní mobilní aplikace na platformě iOS – stručný popis principu návrhu rozhraní pomocí Storyboard. Představení frameworku UIKit a základní funkcionality, které poskytuje. Stručné představení frameworku SwiftuUI a hlavní výhody oproti použití UIKit.**
 
 ## Návrh rozhraní pomocí **Storyboard**
 - Storyboard je vizuální nástroj integrovaný v Xcode.  
