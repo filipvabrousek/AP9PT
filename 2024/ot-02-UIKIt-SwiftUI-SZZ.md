@@ -42,8 +42,9 @@ struct MyView: View {
 ```  
 - **Automatická podpora Dark Mode**: UI se automaticky přizpůsobuje světlému a tmavému režimu.  
 - **Dynamické náhledy**: Možnost okamžitě vidět změny v UI přímo v Xcode.  
-- **Reaktivní přístup**: Automatická aktualizace UI při změnách stavu dat pomocí `@State`, `@Binding`, nebo `ObservableObject`.  
-- **Multiplatformnost**: Podpora nejen iOS, ale také macOS, watchOS a tvOS.  
+- **Reaktivní přístup**: Automatická aktualizace UI při změnách stavu dat pomocí `@State`, `@Binding`
+- **Multiplatformnost**: Podpora nejen iOS, ale také macOS, watchOS a tvOS a visionOS
+- sdílení dat mezi view pomocí ```EnvironmentObject```
 
 ### Výhody oproti UIKit:
 - Rychlejší vývoj díky přehledné a stručné syntaxi.  
