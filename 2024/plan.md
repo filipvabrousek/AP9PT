@@ -138,7 +138,7 @@ použití UIKit.  ✅
 ### Kombi-last
 * SZZ otázky   ✅
 * NavigationStack  ✅
-* watchOS
+* watchOS ✅
 * visionOS Immersive spaces
 * MapKit, CoreLocation
 App Intents, Apple Intelligence
