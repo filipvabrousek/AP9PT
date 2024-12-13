@@ -28,12 +28,17 @@ UIKit je tradiční framework pro vytváření uživatelského rozhraní v iOS a
 SwiftUI je moderní, deklarativní framework pro tvorbu uživatelského rozhraní.  
 
 ### Klíčové vlastnosti a výhody:
-- **Deklarativní syntaxe**: Návrh UI pomocí kódu, který popisuje, *co* má být zobrazeno, místo *jak*.  
-  - Příklad:  
+- **Deklarativní syntaxe**: Návrh UI pomocí kódu, který popisuje, *co* má být zobrazeno, místo *jak*. - jádro = tvorba vlastních a používání vestavěných view
+- všechny používajíí protokol ```View``` (něco jako interface v C#)
+
     ```swift
-    Text("Hello, world!")
-        .font(.headline)
-        .foregroundColor(.blue)
+struct MyView: View {
+    var body: some View {
+        Text("Hello, world!")
+            .font(.headline)
+            .foregroundColor(.blue)
+    }
+}
     ```  
 - **Automatická podpora Dark Mode**: UI se automaticky přizpůsobuje světlému a tmavému režimu.  
 - **Dynamické náhledy**: Možnost okamžitě vidět změny v UI přímo v Xcode.  
