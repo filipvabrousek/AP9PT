@@ -143,4 +143,8 @@ použití UIKit.  ✅
 * MapKit, CoreLocation ✅
 * App Intents, Apple Intelligence ✅
 
+### Projekt
+* časová náričnost 4 hodiny
+* upřesním e-mailem
+
   
