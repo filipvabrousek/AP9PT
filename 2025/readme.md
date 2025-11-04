@@ -1,4 +1,4 @@
-# Úkol na cvičení 04/11 a 6/11
+# Úkol na cvičení 06/11 a 11/11
 
 Vytvoříte Feed do kterého bude moci dynamicky přidávat příspěvky:
 1) Pole na datum / DatePicker
