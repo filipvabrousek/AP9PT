@@ -7,3 +7,4 @@ Vytvoříte Feed do kterého bude moci dynamicky přidávat příspěvky:
 4) obrázek "natvrdo" do view může být pořád stejný
 5) (FB/Reddit/...)
    
+Přístup: 
