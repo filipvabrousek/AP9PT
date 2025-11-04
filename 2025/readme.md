@@ -2,7 +2,7 @@
 
 Vytvoříte Feed do kterého bude moci dynamicky přidávat příspěvky:
 1) Pole na datum / DatePicker
-2) Titulek, Obsah příspěvku
+2) Titulek, Obsah příspěvku (pole)
 3) Dynamicky přídávat příspěvky do view ```List```, UI stačí nad view ```List```
 4) obrázek "natvrdo" do view může být pořád stejný
 5) (FB/Reddit/...)
