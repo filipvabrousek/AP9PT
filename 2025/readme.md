@@ -1,3 +1,11 @@
+# Plan
+09/12 a 11/12 termíny testu
+16/12 a 18/12 práce na projektech
+V lednu další termíny 
+
+
+
+
 # Úkol na cvičení 06/11 a 11/11
 
 Vytvoříte Feed do kterého bude moci dynamicky přidávat příspěvky:
