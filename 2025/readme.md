@@ -1,7 +1,7 @@
 # Plan
-09/12 a 11/12 termíny testu  
-16/12 a 18/12 práce na projektech  
-V lednu další termíny  
+* 09/12 a 11/12 termíny testu  
+* 16/12 a 18/12 práce na projektech  
+* v lednu další termíny  
 
 
 
