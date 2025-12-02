@@ -1,6 +1,6 @@
 # Plan
 * 09/12 a 11/12 termíny testu  
-* 16/12 a 18/12 práce na projektech  
+* 16/12 a 18/12 práce na projektech (možnost obhajoby)
 * v lednu další termíny  
 
 
