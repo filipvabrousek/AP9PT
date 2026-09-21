@@ -1,0 +1,59 @@
+import Playgrounds
+
+#Playground {
+    /*print("Hello")
+
+    var value = 23 // Int
+    let pi = 3.141592 // Double, Float
+
+    if value > 21 {
+      print("Value is large enough and is \(value)")
+    } else {
+
+    }
+
+
+    for i in 0..<21 {
+      print("I is \(i)")
+    }
+
+    let arr = [1, 2, 3]
+    print(arr)
+    let mapped = arr.map {$0 * $0}
+    print(mapped) // [1, 4, 9]
+
+    func calculate(a: Double,
+                   b: Double) -> Double {
+        return a * b
+    }
+
+    let valuea = calculate(a: 3, b: 4)
+    print(valuea)
+    
+    
+    class Person {
+        var name: String
+        init(name: String){
+            self.name = name
+        }
+        
+         func sayHi() -> String {
+            return "Hello, I am \(self.name)"
+        }
+    }
+    
+    let p = Person(name: "Eda")
+    print(p.name)
+   // print(p.sayHi())
+    
+    */
+    struct Testa {
+        var name: String = ""
+    }
+    
+    
+    let test = Testa(name: "E")
+    print(test)
+    
+    
+}
