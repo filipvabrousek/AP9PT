@@ -16,4 +16,4 @@ Materiály ke cvičením jsou rozdělené **po týdnech** (`W01-…`, `W02b-…`
 | `thursday-sk-1` | čtvrtek 16:00 |
 | `kombi` | kombinované studium |
 
-Přednášky jsou ve složce `AK9PT`. Kde je která skupina: [PRUBEH.md](PRUBEH.md).
+Přednášky jsou ve složce `AK9PT`. Kde je která skupina: [progress.md](progress.md).
