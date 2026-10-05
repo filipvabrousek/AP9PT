@@ -1,0 +1,7 @@
+# Xcode: per-user state, not course material
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+# macOS
+.DS_Store
