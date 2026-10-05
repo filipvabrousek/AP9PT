@@ -12,6 +12,7 @@ Které týdny má která skupina za sebou. Kód najdete v týdenní složce, ve 
 | kombinované studium (`kombi`) | | ✓ 2. 10. | ✓ 2. 10. |
 
 - 28. 9. byl státní svátek — pondělní cvičení odpadla.
+- Úterní cvičení 22. a 29. 9. a čtvrteční cvičení 24. 9. odpadla.
 - Hry ve W03 napsal agent Claude (Claude Code); vaší prací je je přečíst, ověřit a vysvětlit.
 
 > Swift concurrency (`async`/`await`, `Task`) a `Codable` (původně týden W02) jsme přesunuli na později v kurzu — přijdou na řadu u práce se sítí.
