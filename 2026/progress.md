@@ -5,7 +5,7 @@ Které týdny má která skupina za sebou. Kód najdete v týdenní složce, ve 
 | Skupina | W01 Swift základy | W02b SwiftUI základy | W03 Stav a agent |
 |---|:---:|:---:|:---:|
 | pondělí 10:00 (`monday-sk-1`) | ✓ 14. 9. | ✓ 21. 9., 5. 10. | |
-| pondělí 14:00 (`monday-sk-2`) | ✓ 14. 9. | ✓ 21. 9. | |
+| pondělí 14:00 (`monday-sk-2`) | ✓ 14. 9. | ✓ 21. 9. | ✓ 5. 10. |
 | úterý 10:00 (`tuesday-sk-1`) | ✓ 15. 9. | | |
 | úterý 15:00 (`tuesday-sk-2`) | ✓ 15. 9. | | |
 | čtvrtek 16:00 (`thursday-sk-1`) | ✓ 17. 9. | ✓ 1. 10. | ✓ 1. 10. |
