@@ -1,4 +1,4 @@
-# Průběh kurzu — stav k 5. 10. 2026
+# Průběh kurzu — stav k 6. 10. 2026
 
 Které týdny má která skupina za sebou. Kód najdete v týdenní složce, ve složce své skupiny.
 
@@ -6,7 +6,7 @@ Které týdny má která skupina za sebou. Kód najdete v týdenní složce, ve 
 |---|:---:|:---:|:---:|
 | pondělí 10:00 (`monday-sk-1`) | ✓ 14. 9. | ✓ 21. 9., 5. 10. | |
 | pondělí 14:00 (`monday-sk-2`) | ✓ 14. 9. | ✓ 21. 9. | ✓ 5. 10. |
-| úterý 10:00 (`tuesday-sk-1`) | ✓ 15. 9. | | |
+| úterý 10:00 (`tuesday-sk-1`) | ✓ 15. 9. | ✓ 6. 10. | |
 | úterý 15:00 (`tuesday-sk-2`) | ✓ 15. 9. | | |
 | čtvrtek 16:00 (`thursday-sk-1`) | ✓ 17. 9. | ✓ 1. 10. | ✓ 1. 10. |
 | kombinované studium (`kombi`) | | ✓ 2. 10. | ✓ 2. 10. |
