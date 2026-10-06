@@ -1,0 +1,22 @@
+# Generated for the repo (6. 10. 2026): the lab upload had sources only, no .xcodeproj.
+# Regenerate with:  xcodegen generate
+name: 05-10-26-sk1-FirstApp
+options:
+  bundleIdPrefix: cz.utb.ap9pt
+  deploymentTarget:
+    iOS: "27.0"
+targets:
+  05-10-26-sk1-FirstApp:
+    type: application
+    platform: iOS
+    sources: [05-10-26-sk1-FirstApp]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        PRODUCT_BUNDLE_IDENTIFIER: cz.utb.ap9pt.monday-sk-1.first-app-05-10-26
+        SWIFT_VERSION: "5.0"
+        CODE_SIGN_STYLE: Automatic
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""   # upload has no AppIcon set

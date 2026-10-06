@@ -47,7 +47,7 @@ v týdenní složce, ve složce své skupiny (např. `W03-State/monday-sk-2/`).
 
 | Skupina | Datum | Co jsme probrali | Stav |
 |---|---|---|:---:|
-| `monday-sk-1` · Po 10:00 | 5. 10. | Karta příspěvku ve stylu Instagramu (rozložení). `@State` a práce s agentem příště (12. 10.) | ◐ |
+| `monday-sk-1` · Po 10:00 | 5. 10. | Views s parametry, karta ve stylu Instagramu, počítadlo s `@State` ručně. Práce s agentem příště (12. 10.) | ◐ |
 | `monday-sk-2` · Po 14:00 | 5. 10. | Opakování rozložení, příspěvek ve stylu X, počítadlo s `@State` ručně; hra na hádání kruhu od agenta | ✅ |
 | `tuesday-sk-1` · Út 10:00 | 6. 10. | Views s parametry, pořadí modifikátorů, karta ve stylu Instagramu, počítadlo s `@State` ručně. Práce s agentem příště (13. 10.) | ◐ |
 | `tuesday-sk-2` · Út 15:00 | 6. 10. | Views s parametry, pořadí modifikátorů, karta ve stylu Instagramu, počítadlo s `@State` ručně. Práce s agentem příště (13. 10.) | ◐ |
@@ -59,7 +59,7 @@ v týdenní složce, ve složce své skupiny (např. `W03-State/monday-sk-2/`).
 
 | Skupina | Datum | Co probereme | Stav |
 |---|---|---|:---:|
-| `monday-sk-1` · Po 10:00 | 12. 10. | `@State` ručně, pak BMI kalkulačka | ○ |
+| `monday-sk-1` · Po 10:00 | 12. 10. | Práce s agentem, pak BMI kalkulačka | ○ |
 | `monday-sk-2` · Po 14:00 | 12. 10. | BMI kalkulačka: `Form`, `@Binding`, validace vstupu | ○ |
 | `tuesday-sk-1` · Út 10:00 | 13. 10. | Práce s agentem, pak BMI kalkulačka | ○ |
 | `tuesday-sk-2` · Út 15:00 | 13. 10. | Práce s agentem, pak BMI kalkulačka | ○ |
