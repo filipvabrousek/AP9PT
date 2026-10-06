@@ -5,7 +5,7 @@ nebo
 (Něco složitějšího (např. API, todolist s persistencí, game)
 
 # Orientace
-Materiály ke cvičením jsou rozdělené **po týdnech** (`W01-…`, `W02b-…`, `W03-…`, …). V každém týdnu má každá skupina svou složku:
+Materiály ke cvičením jsou rozdělené **po týdnech** (`W01-…`, `W02-…`, `W03-…`, …; číslo složky = týden semestru). V každém týdnu má každá skupina svou složku:
 
 | Složka | Skupina |
 |---|---|

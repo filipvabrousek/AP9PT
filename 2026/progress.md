@@ -1,7 +1,7 @@
 # Průběh kurzu po týdnech
 
 Co která skupina v kterém týdnu probrala. Týdny jsou kalendářní týdny semestru; kód najdete
-v týdenní složce, ve složce své skupiny (např. `W03-State/monday-sk-2/`).
+v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); číslo složky odpovídá týdnu semestru.
 
 ✅ hotovo · ◐ část proběhla, zbytek příště · ✖ odpadlo · ○ plánováno · – bez výuky
 
@@ -70,4 +70,4 @@ v týdenní složce, ve složce své skupiny (např. `W03-State/monday-sk-2/`).
 ---
 
 - Hry na hádání kruhu napsal agent Claude (Claude Code); vaší prací je je přečíst, ověřit a vysvětlit.
-- Swift concurrency (`async`/`await`, `Task`) a `Codable` (původně týden W02) jsme přesunuli na později v kurzu — přijdou na řadu u práce se sítí.
+- Swift concurrency (`async`/`await`, `Task`) a `Codable` (původně plánované na 2. týden) jsme přesunuli na později v kurzu — přijdou na řadu u práce se sítí.
