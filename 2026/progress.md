@@ -50,7 +50,7 @@ v týdenní složce, ve složce své skupiny (např. `W03-State/monday-sk-2/`).
 | `monday-sk-1` · Po 10:00 | 5. 10. | Karta příspěvku ve stylu Instagramu (rozložení). `@State` a práce s agentem příště (12. 10.) | ◐ |
 | `monday-sk-2` · Po 14:00 | 5. 10. | Opakování rozložení, příspěvek ve stylu X, počítadlo s `@State` ručně; hra na hádání kruhu od agenta | ✅ |
 | `tuesday-sk-1` · Út 10:00 | 6. 10. | Views s parametry, pořadí modifikátorů, karta ve stylu Instagramu, počítadlo s `@State` ručně. Práce s agentem příště (13. 10.) | ◐ |
-| `tuesday-sk-2` · Út 15:00 | 6. 10. | Rozložení a `@State` ručně; práce s agentem 13. 10. | ○ |
+| `tuesday-sk-2` · Út 15:00 | 6. 10. | Views s parametry, pořadí modifikátorů, karta ve stylu Instagramu, počítadlo s `@State` ručně. Práce s agentem příště (13. 10.) | ◐ |
 | `thursday-sk-1` · Čt 16:00 | 8. 10. | – | ○ |
 | `kombi` | – | – | – |
 | Přednáška · Út 12:00 | 6. 10. | Deklarativní model, stacky, pořadí modifikátorů, `@State`, `if` vs. `.opacity`; stejné zadání pro agenta; review hry na hádání kruhu | ✅ |
