@@ -6,13 +6,14 @@ Které týdny má která skupina za sebou. Kód najdete v týdenní složce, ve 
 |---|:---:|:---:|:---:|
 | pondělí 10:00 (`monday-sk-1`) | ✓ 14. 9. | ✓ 21. 9., 5. 10. | |
 | pondělí 14:00 (`monday-sk-2`) | ✓ 14. 9. | ✓ 21. 9. | ✓ 5. 10. |
-| úterý 10:00 (`tuesday-sk-1`) | ✓ 15. 9. | | ✓ 6. 10. |
+| úterý 10:00 (`tuesday-sk-1`) | ✓ 15. 9. | | ◐ 6. 10. |
 | úterý 15:00 (`tuesday-sk-2`) | ✓ 15. 9. | | |
 | čtvrtek 16:00 (`thursday-sk-1`) | ✓ 17. 9. | ✓ 1. 10. | ✓ 1. 10. |
 | kombinované studium (`kombi`) | | ✓ 2. 10. | ✓ 2. 10. |
 
 - 28. 9. byl státní svátek — pondělní cvičení odpadla.
 - Úterní cvičení 22. a 29. 9. a čtvrteční cvičení 24. 9. odpadla.
+- ◐ = týden začatý: úterní skupina 10:00 udělá práci s agentem 13. 10.
 - Hry ve W03 napsal agent Claude (Claude Code); vaší prací je je přečíst, ověřit a vysvětlit.
 
 > Swift concurrency (`async`/`await`, `Task`) a `Codable` (původně týden W02) jsme přesunuli na později v kurzu — přijdou na řadu u práce se sítí.
