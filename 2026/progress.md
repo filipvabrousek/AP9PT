@@ -11,7 +11,7 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 
 Řádek = skupina, sloupec = týden semestru (datum je pondělí toho týdne). Podrobnosti ke každému týdnu jsou níž.
 
-| Skupina | **1** · 14. 9.<br>Swift základy | **2** · 21. 9.<br>SwiftUI rozložení | **3** · 28. 9.<br>SwiftUI rozložení | **4** · 5. 10.<br>`@State`, první app od agenta | **5** · 12. 10.<br>`@Binding`, `Form`: BMI | **6** · 19. 10.<br>`@Observable`: TODO | **7** · 26. 10.<br>Notes, `NavigationStack` + kvíz | **8** · 2. 11.<br>SwiftData: Recipe Book | **9** · 9. 11.<br>Síť + concurrency: Weather | **10** · 16. 11.<br>App Intents: Habit Tracker | **11** · 23. 11.<br>AI v appce: Journal Summariser | **12** · 30. 11.<br>Cross-platform Notes | **13** · 7. 12.<br>Kvíz + semestrální projekt | **14** · 14. 12.<br>Obhajoby |
+| Skupina | **1** · 14. 9.<br>Swift základy | **2** · 21. 9.<br>SwiftUI rozložení | **3** · 28. 9.<br>SwiftUI rozložení | **4** · 5. 10.<br>`@State`, první app od agenta | **5** · 12. 10.<br>`@Binding`, `Form`: BMI | **6** · 19. 10.<br>`@Observable`: TODO | **7** · 26. 10.<br>Notes, `NavigationStack` + kvíz | **8** · 2. 11.<br>SwiftData: Recipe Book | **9** · 9. 11.<br>Síť + concurrency: Weather | **10** · 16. 11.<br>App Intents: Habit Tracker | **11** · 23. 11.<br>AI v appce: Journal Summariser | **12** · 30. 11.<br>Cross-platform Notes | **13** · 7. 12.<br>Kvíz + semestrální projekt | **14** · 14. 12.<br>Semestrální projekt |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | `monday-sk-1` · Po 10:00 | ✅ Swift, první app | ✅ modifikátory, stacky, views | ✖ svátek | ◐ `@State` ručně, agent příště | ✅ BMI od agenta; ručně `ForEach`, `TextField`, `Slider` (`@Binding` příště) | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
 | `monday-sk-2` · Po 14:00 | ✅ Swift základy, první app | ✅ modifikátory, stacky, views | ✖ svátek | ✅ `@State` ručně, hra od agenta | ✅ BMI od agenta; ručně `ForEach`, `@Binding`, `TextField`, `Slider` | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
@@ -19,7 +19,7 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 | `tuesday-sk-2` · Út 15:00 | ✅ Swift základy | ✖ odpadlo | ✖ odpadlo | ◐ `@State` ručně, agent příště | ○ | ○ | ○ | ○ | ○ | ✖ svátek 17. 11. | ○ | ○ | ○ | ○ |
 | `thursday-sk-1` · Čt 16:00 | ✅ první SwiftUI app | ✖ odpadlo | ✅ `@State`, hra od agenta | ✖ děkanské volno | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
 | `kombi` | – | – | ✅ views, `@State`, hra od agenta (2. 10.) | – | – | – | ○ sobotní blok 2 (týdny 4–7), termín upřesníme | – | – | – | – | ○ sobotní blok 3 (týdny 8–12), termín upřesníme | – | ○ termín upřesníme |
-| Přednáška · Út 12:00 | ✅ úvod, Swift základy | ✖ odpadla | ✖ odpadla | ✅ `@State`, review hry od agenta | ○ | ○ | ○ | ○ | ○ | ✖ svátek 17. 11. | ○ | ○ | ○ | – (obhajoby) |
+| Přednáška · Út 12:00 | ✅ úvod, Swift základy | ✖ odpadla | ✖ odpadla | ✅ `@State`, review hry od agenta | ○ | ○ | ○ | ○ | ○ | ✖ svátek 17. 11. | ○ | ○ | ○ | ○ |
 
 ## Podrobně po týdnech
 
