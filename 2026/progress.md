@@ -11,7 +11,7 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 
 Řádek = skupina, sloupec = týden semestru (datum je pondělí toho týdne). Podrobnosti ke každému týdnu jsou níž.
 
-| Skupina | **1**<br>14.&nbsp;9.<br>Swift základy | **2**<br>21.&nbsp;9.<br>SwiftUI rozložení | **3**<br>28.&nbsp;9.<br>SwiftUI rozložení | **4**<br>5.&nbsp;10.<br>`@State`, první app od agenta | **5**<br>12.&nbsp;10.<br>`@Binding`, `Form`: BMI | **6**<br>19.&nbsp;10.<br>`@Observable`: TODO | **7**<br>26.&nbsp;10.<br>Notes, `NavigationStack` + kvíz | **8**<br>2.&nbsp;11.<br>SwiftData: Recipe Book | **9**<br>9.&nbsp;11.<br>Síť + concurrency: Weather | **10**<br>16.&nbsp;11.<br>App Intents: Habit Tracker | **11**<br>23.&nbsp;11.<br>AI v appce: Journal Summariser | **12**<br>30.&nbsp;11.<br>Cross-platform Notes | **13**<br>7.&nbsp;12.<br>Kvíz + semestrální projekt | **14**<br>14.&nbsp;12.<br>Semestrální projekt |
+| Skupina | **1**<br>14.&nbsp;9.<br>Swift základy | **2**<br>21.&nbsp;9.<br>SwiftUI rozložení | **3**<br>28.&nbsp;9.<br>SwiftUI rozložení | **4**<br>5.&nbsp;10.<br>`@State`, první app od agenta | **5**<br>12.&nbsp;10.<br>`@Binding`, `Form`: BMI | **6**<br>19.&nbsp;10.<br>`@Observable`: TODO | **7**<br>26.&nbsp;10.<br>Notes, `NavigationStack` | **8**<br>2.&nbsp;11.<br>SwiftData: Recipe Book | **9**<br>9.&nbsp;11.<br>Síť + concurrency: Weather | **10**<br>16.&nbsp;11.<br>App Intents: Habit Tracker | **11**<br>23.&nbsp;11.<br>AI v appce: Journal Summariser | **12**<br>30.&nbsp;11.<br>Cross-platform Notes | **13**<br>7.&nbsp;12.<br>Semestrální projekt | **14**<br>14.&nbsp;12.<br>Semestrální projekt |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | `monday-sk-1` · Po 10:00 | ✅ Swift, první app | ✅ modifikátory, stacky, views | ✖ svátek | ◐ `@State` ručně, agent příště | ✅ BMI od agenta; ručně `ForEach`, `TextField`, `Slider` (`@Binding` příště) | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
 | `monday-sk-2` · Po 14:00 | ✅ Swift základy, první app | ✅ modifikátory, stacky, views | ✖ svátek | ✅ `@State` ručně, hra od agenta | ✅ BMI od agenta; ručně `ForEach`, `@Binding`, `TextField`, `Slider` | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
@@ -94,17 +94,17 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 | `tuesday-sk-2` · Út 15:00 | 20. 10. | TODO aplikace od agenta: `@Observable` model, `List`, mazání tahem, sheet pro přidání. Ručně: todo list a sdílení dat mezi views (`@Environment`) | ○ |
 | `thursday-sk-1` · Čt 16:00 | 22. 10. | TODO aplikace od agenta: `@Observable` model, `List`, mazání tahem, sheet pro přidání. Ručně: todo list a sdílení dat mezi views (`@Environment`) | ○ |
 | `kombi` | – | – | – |
-| Přednáška · Út 12:00 | 20. 10. | `@Observable` vs. `ObservableObject`, kdo vlastní stav (`@State` → `@Bindable` → `@Environment`), `List` a `ForEach`. Příští cvičení začíná kvízem | ○ |
+| Přednáška · Út 12:00 | 20. 10. | `@Observable` vs. `ObservableObject`, kdo vlastní stav (`@State` → `@Bindable` → `@Environment`), `List` a `ForEach` | ○ |
 
 ## Týden 7 · 26.–30. 10. · Fáze 3 začíná: Notes
 
 | Skupina | Datum | Co probereme | Stav |
 |---|---|---|:---:|
-| `monday-sk-1` · Po 10:00 | 26. 10. | Kvíz (Fáze 1+2, 10 min). Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
-| `monday-sk-2` · Po 14:00 | 26. 10. | Kvíz (Fáze 1+2, 10 min). Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
-| `tuesday-sk-1` · Út 10:00 | 27. 10. | Kvíz (Fáze 1+2, 10 min). Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
-| `tuesday-sk-2` · Út 15:00 | 27. 10. | Kvíz (Fáze 1+2, 10 min). Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
-| `thursday-sk-1` · Čt 16:00 | 29. 10. | Kvíz (Fáze 1+2, 10 min). Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
+| `monday-sk-1` · Po 10:00 | 26. 10. | Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
+| `monday-sk-2` · Po 14:00 | 26. 10. | Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
+| `tuesday-sk-1` · Út 10:00 | 27. 10. | Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
+| `tuesday-sk-2` · Út 15:00 | 27. 10. | Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
+| `thursday-sk-1` · Čt 16:00 | 29. 10. | Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
 | `kombi` | upřesníme | Sobotní blok 2 (týdny 4–7) | ○ |
 | Přednáška · Út 12:00 | 27. 10. | `NavigationStack`, `navigationDestination`, `NavigationPath`; jak napsat specifikaci s testovatelnými kritérii | ○ |
 
@@ -168,15 +168,15 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 | `kombi` | upřesníme | Sobotní blok 3 (týdny 8–12) | ○ |
 | Přednáška · Út 12:00 | 1. 12. | Target membership, `#if os(...)`, sdílení dat mezi targety (App Group), UI pro jednotlivé platformy | ○ |
 
-## Týden 13 · 7.–11. 12. · Kvíz a semestrální projekt (1/2)
+## Týden 13 · 7.–11. 12. · Semestrální projekt (1/2)
 
 | Skupina | Datum | Co probereme | Stav |
 |---|---|---|:---:|
-| `monday-sk-1` · Po 10:00 | 7. 12. | Kvíz (Fáze 3, 10 min). Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
-| `monday-sk-2` · Po 14:00 | 7. 12. | Kvíz (Fáze 3, 10 min). Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
-| `tuesday-sk-1` · Út 10:00 | 8. 12. | Kvíz (Fáze 3, 10 min). Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
-| `tuesday-sk-2` · Út 15:00 | 8. 12. | Kvíz (Fáze 3, 10 min). Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
-| `thursday-sk-1` · Čt 16:00 | 10. 12. | Kvíz (Fáze 3, 10 min). Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
+| `monday-sk-1` · Po 10:00 | 7. 12. | Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
+| `monday-sk-2` · Po 14:00 | 7. 12. | Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
+| `tuesday-sk-1` · Út 10:00 | 8. 12. | Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
+| `tuesday-sk-2` · Út 15:00 | 8. 12. | Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
+| `thursday-sk-1` · Čt 16:00 | 10. 12. | Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
 | `kombi` | – | – | – |
 | Přednáška · Út 12:00 | 8. 12. | Poslední přednáška: TestFlight a distribuce; jak proběhne obhajoba | ○ |
 
