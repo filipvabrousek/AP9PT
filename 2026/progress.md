@@ -78,13 +78,123 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 |---|---|---|:---:|
 | `monday-sk-1` · Po 10:00 | 12. 10. | Ručně: cyklus `ForEach` (hádání správného indexu), `TextField`, `Slider`. Od agenta (Claude Code): hra na hádání kruhu a BMI kalkulačka (posuvníky, barevné kategorie, `@Binding`), obojí jsme spolu prošli v code review | ✅ |
 | `monday-sk-2` · Po 14:00 | 12. 10. | Ručně: cyklus `ForEach`, `@Binding` (předání `$counter` do jiného view), `TextField`, `Slider`, `SecureField`, alert. Od agenta (Claude Code): BMI kalkulačka (`Form`, jednotky, posuvníky, barevná škála), prošli jsme ji v code review | ✅ |
-| `tuesday-sk-1` · Út 10:00 | 13. 10. | Práce s agentem, pak BMI kalkulačka | ○ |
-| `tuesday-sk-2` · Út 15:00 | 13. 10. | Práce s agentem, pak BMI kalkulačka | ○ |
-| `thursday-sk-1` · Čt 16:00 | 15. 10. | BMI kalkulačka | ○ |
+| `tuesday-sk-1` · Út 10:00 | 13. 10. | Ručně: `@Binding`, cyklus `ForEach`, `TextField`, `Slider`. Od agenta (Claude Code): hra na hádání kruhu a BMI kalkulačka, projdeme je v code review | ○ |
+| `tuesday-sk-2` · Út 15:00 | 13. 10. | Ručně: `@Binding`, cyklus `ForEach`, `TextField`, `Slider`. Od agenta (Claude Code): hra na hádání kruhu a BMI kalkulačka, projdeme je v code review | ○ |
+| `thursday-sk-1` · Čt 16:00 | 15. 10. | Ručně: `@Binding`, cyklus `ForEach`, `TextField`, `Slider`. Od agenta (Claude Code): BMI kalkulačka, projdeme ji v code review | ○ |
 | `kombi` | – | – | – |
 | Přednáška · Út 12:00 | 13. 10. | Pyramida stavů, `@Binding`, `Form`, validace vstupu, desetinná čárka vs. tečka | ○ |
+
+## Týden 6 · 19.–23. 10. · `@Observable`: TODO aplikace
+
+| Skupina | Datum | Co probereme | Stav |
+|---|---|---|:---:|
+| `monday-sk-1` · Po 10:00 | 19. 10. | TODO aplikace od agenta: `@Observable` model, `List`, mazání tahem, sheet pro přidání. Ručně: todo list a sdílení dat mezi views (`@Environment`). Na začátku `@Binding` ručně | ○ |
+| `monday-sk-2` · Po 14:00 | 19. 10. | TODO aplikace od agenta: `@Observable` model, `List`, mazání tahem, sheet pro přidání. Ručně: todo list a sdílení dat mezi views (`@Environment`) | ○ |
+| `tuesday-sk-1` · Út 10:00 | 20. 10. | TODO aplikace od agenta: `@Observable` model, `List`, mazání tahem, sheet pro přidání. Ručně: todo list a sdílení dat mezi views (`@Environment`) | ○ |
+| `tuesday-sk-2` · Út 15:00 | 20. 10. | TODO aplikace od agenta: `@Observable` model, `List`, mazání tahem, sheet pro přidání. Ručně: todo list a sdílení dat mezi views (`@Environment`) | ○ |
+| `thursday-sk-1` · Čt 16:00 | 22. 10. | TODO aplikace od agenta: `@Observable` model, `List`, mazání tahem, sheet pro přidání. Ručně: todo list a sdílení dat mezi views (`@Environment`) | ○ |
+| `kombi` | – | – | – |
+| Přednáška · Út 12:00 | 20. 10. | `@Observable` vs. `ObservableObject`, kdo vlastní stav (`@State` → `@Bindable` → `@Environment`), `List` a `ForEach`. Příští cvičení začíná kvízem | ○ |
+
+## Týden 7 · 26.–30. 10. · Fáze 3 začíná: Notes
+
+| Skupina | Datum | Co probereme | Stav |
+|---|---|---|:---:|
+| `monday-sk-1` · Po 10:00 | 26. 10. | Kvíz (Fáze 1+2, 10 min). Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
+| `monday-sk-2` · Po 14:00 | 26. 10. | Kvíz (Fáze 1+2, 10 min). Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
+| `tuesday-sk-1` · Út 10:00 | 27. 10. | Kvíz (Fáze 1+2, 10 min). Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
+| `tuesday-sk-2` · Út 15:00 | 27. 10. | Kvíz (Fáze 1+2, 10 min). Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
+| `thursday-sk-1` · Čt 16:00 | 29. 10. | Kvíz (Fáze 1+2, 10 min). Notes: `NavigationStack`, seznam → detail. Poprvé celý postup: specifikace (PRD) → agent → akceptační test → oprava → review. Ručně: `NavigationStack` | ○ |
+| `kombi` | upřesníme | Sobotní blok 2 (týdny 4–7) | ○ |
+| Přednáška · Út 12:00 | 27. 10. | `NavigationStack`, `navigationDestination`, `NavigationPath`; jak napsat specifikaci s testovatelnými kritérii | ○ |
+
+## Týden 8 · 2.–6. 11. · SwiftData: Recipe Book
+
+| Skupina | Datum | Co probereme | Stav |
+|---|---|---|:---:|
+| `monday-sk-1` · Po 10:00 | 2. 11. | Recipe Book: `@Model`, `@Query`, vazby; test restartu – data musí přežít zavření aplikace. Ručně: `@Model` a `@Query` | ○ |
+| `monday-sk-2` · Po 14:00 | 2. 11. | Recipe Book: `@Model`, `@Query`, vazby; test restartu – data musí přežít zavření aplikace. Ručně: `@Model` a `@Query` | ○ |
+| `tuesday-sk-1` · Út 10:00 | 3. 11. | Recipe Book: `@Model`, `@Query`, vazby; test restartu – data musí přežít zavření aplikace. Ručně: `@Model` a `@Query` | ○ |
+| `tuesday-sk-2` · Út 15:00 | 3. 11. | Recipe Book: `@Model`, `@Query`, vazby; test restartu – data musí přežít zavření aplikace. Ručně: `@Model` a `@Query` | ○ |
+| `thursday-sk-1` · Čt 16:00 | 5. 11. | Recipe Book: `@Model`, `@Query`, vazby; test restartu – data musí přežít zavření aplikace. Ručně: `@Model` a `@Query` | ○ |
+| `kombi` | – | – | – |
+| Přednáška · Út 12:00 | 3. 11. | SwiftData: `@Model`, `@Query`, `ModelContainer`, vazby; proč zastavení v Xcode není restart | ○ |
+
+## Týden 9 · 9.–13. 11. · Síť a concurrency: Weather
+
+| Skupina | Datum | Co probereme | Stav |
+|---|---|---|:---:|
+| `monday-sk-1` · Po 10:00 | 9. 11. | Weather Dashboard: `async`/`await`, `Task`, `URLSession`, `Codable`, stav načítání a chyby, paralelní načítání. Ručně: todo list z týdne 6 načtený z fake JSON API (JSONPlaceholder) | ○ |
+| `monday-sk-2` · Po 14:00 | 9. 11. | Weather Dashboard: `async`/`await`, `Task`, `URLSession`, `Codable`, stav načítání a chyby, paralelní načítání. Ručně: todo list z týdne 6 načtený z fake JSON API (JSONPlaceholder) | ○ |
+| `tuesday-sk-1` · Út 10:00 | 10. 11. | Weather Dashboard: `async`/`await`, `Task`, `URLSession`, `Codable`, stav načítání a chyby, paralelní načítání. Ručně: todo list z týdne 6 načtený z fake JSON API (JSONPlaceholder) | ○ |
+| `tuesday-sk-2` · Út 15:00 | 10. 11. | Weather Dashboard: `async`/`await`, `Task`, `URLSession`, `Codable`, stav načítání a chyby, paralelní načítání. Ručně: todo list z týdne 6 načtený z fake JSON API (JSONPlaceholder) | ○ |
+| `thursday-sk-1` · Čt 16:00 | 12. 11. | Weather Dashboard: `async`/`await`, `Task`, `URLSession`, `Codable`, stav načítání a chyby, paralelní načítání. Ručně: todo list z týdne 6 načtený z fake JSON API (JSONPlaceholder) | ○ |
+| `kombi` | – | – | – |
+| Přednáška · Út 12:00 | 10. 11. | `async`/`await`, `Task`, `Codable`, `.task`, `async let` a `TaskGroup`; actors a `Sendable` jen jako pojem | ○ |
+
+## Týden 10 · 16.–20. 11. · App Intents: Habit Tracker
+
+| Skupina | Datum | Co probereme | Stav |
+|---|---|---|:---:|
+| `monday-sk-1` · Po 10:00 | 16. 11. | Habit Tracker: App Intents – akce „hotovo“ ze Siri a aplikace Zkratky. Ručně: minimální `AppIntent` | ○ |
+| `monday-sk-2` · Po 14:00 | 16. 11. | Habit Tracker: App Intents – akce „hotovo“ ze Siri a aplikace Zkratky. Ručně: minimální `AppIntent` | ○ |
+| `tuesday-sk-1` · Út 10:00 | 17. 11. | Státní svátek – cvičení odpadá; jak ho doženeme, upřesníme | ✖ |
+| `tuesday-sk-2` · Út 15:00 | 17. 11. | Státní svátek – cvičení odpadá; jak ho doženeme, upřesníme | ✖ |
+| `thursday-sk-1` · Čt 16:00 | 19. 11. | Habit Tracker: App Intents – akce „hotovo“ ze Siri a aplikace Zkratky. Ručně: minimální `AppIntent` | ○ |
+| `kombi` | – | – | – |
+| Přednáška · Út 12:00 | 17. 11. | Státní svátek – přednáška odpadá; App Intents na začátku přednášky 24.&nbsp;11. | ✖ |
+
+## Týden 11 · 23.–27. 11. · AI v aplikaci: Journal Summariser
+
+| Skupina | Datum | Co probereme | Stav |
+|---|---|---|:---:|
+| `monday-sk-1` · Po 10:00 | 23. 11. | Journal Summariser: AI přímo v aplikaci (Foundation Models na macOS 27) a eval s 5 testovacími případy (golden cases). Ručně: `LanguageModelSession` | ○ |
+| `monday-sk-2` · Po 14:00 | 23. 11. | Journal Summariser: AI přímo v aplikaci (Foundation Models na macOS 27) a eval s 5 testovacími případy (golden cases). Ručně: `LanguageModelSession` | ○ |
+| `tuesday-sk-1` · Út 10:00 | 24. 11. | Journal Summariser: AI přímo v aplikaci (Foundation Models na macOS 27) a eval s 5 testovacími případy (golden cases). Ručně: `LanguageModelSession`. Na začátku App Intent ručně (za svátek 17.&nbsp;11.) | ○ |
+| `tuesday-sk-2` · Út 15:00 | 24. 11. | Journal Summariser: AI přímo v aplikaci (Foundation Models na macOS 27) a eval s 5 testovacími případy (golden cases). Ručně: `LanguageModelSession`. Na začátku App Intent ručně (za svátek 17.&nbsp;11.) | ○ |
+| `thursday-sk-1` · Čt 16:00 | 26. 11. | Journal Summariser: AI přímo v aplikaci (Foundation Models na macOS 27) a eval s 5 testovacími případy (golden cases). Ručně: `LanguageModelSession` | ○ |
+| `kombi` | – | – | – |
+| Přednáška · Út 12:00 | 24. 11. | App Intents (za svátek); Foundation Models, evaly, soukromí | ○ |
+
+## Týden 12 · 30. 11.–4. 12. · Cross-platform: Notes na 4 systémech
+
+| Skupina | Datum | Co probereme | Stav |
+|---|---|---|:---:|
+| `monday-sk-1` · Po 10:00 | 30. 11. | Cross-platform Notes: iOS, watchOS, visionOS a macOS z jednoho modelu. Ručně: `#if os(...)` | ○ |
+| `monday-sk-2` · Po 14:00 | 30. 11. | Cross-platform Notes: iOS, watchOS, visionOS a macOS z jednoho modelu. Ručně: `#if os(...)` | ○ |
+| `tuesday-sk-1` · Út 10:00 | 1. 12. | Cross-platform Notes: iOS, watchOS, visionOS a macOS z jednoho modelu. Ručně: `#if os(...)` | ○ |
+| `tuesday-sk-2` · Út 15:00 | 1. 12. | Cross-platform Notes: iOS, watchOS, visionOS a macOS z jednoho modelu. Ručně: `#if os(...)` | ○ |
+| `thursday-sk-1` · Čt 16:00 | 3. 12. | Cross-platform Notes: iOS, watchOS, visionOS a macOS z jednoho modelu. Ručně: `#if os(...)` | ○ |
+| `kombi` | upřesníme | Sobotní blok 3 (týdny 8–12) | ○ |
+| Přednáška · Út 12:00 | 1. 12. | Target membership, `#if os(...)`, sdílení dat mezi targety (App Group), UI pro jednotlivé platformy | ○ |
+
+## Týden 13 · 7.–11. 12. · Kvíz a semestrální projekt (1/2)
+
+| Skupina | Datum | Co probereme | Stav |
+|---|---|---|:---:|
+| `monday-sk-1` · Po 10:00 | 7. 12. | Kvíz (Fáze 3, 10 min). Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
+| `monday-sk-2` · Po 14:00 | 7. 12. | Kvíz (Fáze 3, 10 min). Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
+| `tuesday-sk-1` · Út 10:00 | 8. 12. | Kvíz (Fáze 3, 10 min). Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
+| `tuesday-sk-2` · Út 15:00 | 8. 12. | Kvíz (Fáze 3, 10 min). Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
+| `thursday-sk-1` · Čt 16:00 | 10. 12. | Kvíz (Fáze 3, 10 min). Semestrální projekt ve škole: specifikace, práce s agentem | ○ |
+| `kombi` | – | – | – |
+| Přednáška · Út 12:00 | 8. 12. | Poslední přednáška: TestFlight a distribuce; jak proběhne obhajoba | ○ |
+
+## Týden 14 · 14.–18. 12. · Semestrální projekt (2/2)
+
+| Skupina | Datum | Co probereme | Stav |
+|---|---|---|:---:|
+| `monday-sk-1` · Po 10:00 | 14. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ○ |
+| `monday-sk-2` · Po 14:00 | 14. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ○ |
+| `tuesday-sk-1` · Út 10:00 | 15. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ○ |
+| `tuesday-sk-2` · Út 15:00 | 15. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ○ |
+| `thursday-sk-1` · Čt 16:00 | 17. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ○ |
+| `kombi` | upřesníme | Termín upřesníme | ○ |
+| Přednáška · Út 12:00 | 15. 12. | Upřesníme | ○ |
 
 ---
 
 - Hry na hádání kruhu napsal agent Claude (Claude Code); vaší prací je je přečíst, ověřit a vysvětlit.
-- Swift concurrency (`async`/`await`, `Task`) a `Codable` (původně plánované na 2. týden) jsme přesunuli na později v kurzu — přijdou na řadu u práce se sítí.
+- Swift concurrency (`async`/`await`, `Task`) a `Codable` (původně plánované na 2. týden) jsme přesunuli do 9. týdne (Weather).
+- **Ručně** = krátký příklad, který píšeme spolu bez agenta. Sada ručních příkladů je v každém týdnu stejná pro všechny skupiny.
+- Všechno, včetně semestrálního projektu, děláme **ve škole** – doma na Macu pracovat nemusíte. Termín obhajob upřesníme.
