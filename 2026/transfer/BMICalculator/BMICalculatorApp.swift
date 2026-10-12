@@ -4,12 +4,10 @@ import SwiftUI
 struct BMICalculatorApp: App {
     var body: some Scene {
         WindowGroup {
-           TextView()
-            // ContentView()
+            ContentView()
         }
     }
 }
-
 
 // MARK: - Model
 
@@ -25,56 +23,51 @@ enum BMICategory {
     init(bmi: Double) {
         switch bmi {
         case ..<18.5: self = .underweight
-        case ..<25: self = .normal
-        case ..<30: self = .overweight
-        default: self = .obese
+        case ..<25:   self = .normal
+        case ..<30:   self = .overweight
+        default:      self = .obese
         }
     }
 
     var title: String {
         switch self {
         case .underweight: "Underweight"
-        case .normal: "Normal weight"
-        case .overweight: "Overweight"
-        case .obese: "Obese"
+        case .normal:      "Normal weight"
+        case .overweight:  "Overweight"
+        case .obese:       "Obese"
         }
     }
 
     var color: Color {
         switch self {
         case .underweight: .blue
-        case .normal: .green
-        case .overweight: .orange
-        case .obese: .red
+        case .normal:      .green
+        case .overweight:  .orange
+        case .obese:       .red
         }
     }
 }
 
-func calculateBMI(weightKg: Double, heightCm: Double) -> Double? {
-    guard weightKg > 0, heightCm > 0 else { return nil }
-    let meters = heightCm / 100
-    return weightKg / (meters * meters)
-}
-
-// MARK: - Views
+// MARK: - View
 
 struct ContentView: View {
     @State private var units: UnitSystem = .metric
     @State private var heightCm: Double = 175
     @State private var weightKg: Double = 70
-    @State private var heightFeet: Int = 5
-    @State private var heightInches: Int = 9
+    @State private var heightIn: Double = 69
     @State private var weightLb: Double = 154
 
-    private var bmi: Double? {
+    private var bmi: Double {
         switch units {
         case .metric:
-            return calculateBMI(weightKg: weightKg, heightCm: heightCm)
+            let m = heightCm / 100
+            return weightKg / (m * m)
         case .imperial:
-            let totalInches = Double(heightFeet * 12 + heightInches)
-            return calculateBMI(weightKg: weightLb * 0.45359237, heightCm: totalInches * 2.54)
+            return 703 * weightLb / (heightIn * heightIn)
         }
     }
+
+    private var category: BMICategory { BMICategory(bmi: bmi) }
 
     var body: some View {
         NavigationStack {
@@ -87,138 +80,98 @@ struct ContentView: View {
                 }
 
                 Section("Height") {
-                    switch units {
-                    case .metric:
-                        LabeledSlider(value: $heightCm, range: 100...230, step: 1, unit: "cm")
-                    case .imperial:
-                        Stepper("\(heightFeet) ft", value: $heightFeet, in: 3...7)
-                        Stepper("\(heightInches) in", value: $heightInches, in: 0...11)
+                    if units == .metric {
+                        ValueSlider(value: $heightCm, range: 100...230, label: "\(Int(heightCm)) cm")
+                    } else {
+                        ValueSlider(value: $heightIn, range: 40...90,
+                                    label: "\(Int(heightIn) / 12) ft \(Int(heightIn) % 12) in")
                     }
                 }
 
                 Section("Weight") {
-                    switch units {
-                    case .metric:
-                        LabeledSlider(value: $weightKg, range: 30...200, step: 0.5, unit: "kg")
-                    case .imperial:
-                        LabeledSlider(value: $weightLb, range: 66...440, step: 1, unit: "lb")
+                    if units == .metric {
+                        ValueSlider(value: $weightKg, range: 30...200, label: "\(Int(weightKg)) kg")
+                    } else {
+                        ValueSlider(value: $weightLb, range: 66...440, label: "\(Int(weightLb)) lb")
                     }
                 }
 
-                if let bmi {
-                    Section("Result") {
-                        ResultView(bmi: bmi)
+                Section("Result") {
+                    VStack(spacing: 8) {
+                        Text(bmi, format: .number.precision(.fractionLength(1)))
+                            .font(.system(size: 56, weight: .bold, design: .rounded))
+                            .contentTransition(.numericText())
+                            .animation(.snappy, value: bmi)
+                        Text(category.title)
+                            .font(.headline)
+                            .foregroundStyle(category.color)
+                        BMIScale(bmi: bmi)
+                            .padding(.top, 8)
                     }
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical)
                 }
             }
             .navigationTitle("BMI Calculator")
-            .onChange(of: units) { _, newUnits in
-                syncValues(to: newUnits)
+            .onChange(of: units) { _, newValue in
+                // Keep values in sync when switching unit systems.
+                if newValue == .imperial {
+                    heightIn = (heightCm / 2.54).rounded()
+                    weightLb = (weightKg * 2.20462).rounded()
+                } else {
+                    heightCm = (heightIn * 2.54).rounded()
+                    weightKg = (weightLb / 2.20462).rounded()
+                }
             }
-        }
-    }
-
-    /// Carries the current height/weight across when the unit system changes.
-    private func syncValues(to newUnits: UnitSystem) {
-        switch newUnits {
-        case .imperial:
-            let totalInches = Int((heightCm / 2.54).rounded())
-            heightFeet = min(max(totalInches / 12, 3), 7)
-            heightInches = totalInches % 12
-            weightLb = (weightKg / 0.45359237).rounded()
-        case .metric:
-            heightCm = (Double(heightFeet * 12 + heightInches) * 2.54).rounded()
-            weightKg = ((weightLb * 0.45359237) * 2).rounded() / 2
         }
     }
 }
 
-struct LabeledSlider: View {
+struct ValueSlider: View {
     @Binding var value: Double
     let range: ClosedRange<Double>
-    let step: Double
-    let unit: String
+    let label: String
 
     var body: some View {
         VStack(alignment: .leading) {
-            Text("\(value, specifier: step < 1 ? "%.1f" : "%.0f") \(unit)")
-                .font(.title3.monospacedDigit().bold())
-            Slider(value: $value, in: range, step: step)
+            Text(label)
+                .font(.title3.monospacedDigit())
+            Slider(value: $value, in: range, step: 1)
         }
     }
 }
 
-struct ResultView: View {
+/// Colored bar from BMI 15 to 40 with a marker for the current value.
+struct BMIScale: View {
     let bmi: Double
-    private var category: BMICategory { BMICategory(bmi: bmi) }
+    private let lower = 15.0, upper = 40.0
 
     var body: some View {
-        VStack(spacing: 12) {
-            Text(bmi, format: .number.precision(.fractionLength(1)))
-                .font(.system(size: 56, weight: .bold, design: .rounded))
-                .foregroundStyle(category.color)
-                .contentTransition(.numericText())
-                .animation(.snappy, value: bmi)
+        GeometryReader { geo in
+            let fraction = (min(max(bmi, lower), upper) - lower) / (upper - lower)
+            ZStack(alignment: .leading) {
+                LinearGradient(
+                    stops: [
+                        .init(color: .blue,   location: 0),
+                        .init(color: .green,  location: (18.5 - lower) / (upper - lower)),
+                        .init(color: .green,  location: (25 - lower) / (upper - lower)),
+                        .init(color: .orange, location: (30 - lower) / (upper - lower)),
+                        .init(color: .red,    location: 1),
+                    ],
+                    startPoint: .leading, endPoint: .trailing
+                )
+                .frame(height: 10)
+                .clipShape(Capsule())
 
-            Text(category.title)
-                .font(.headline)
-                .padding(.horizontal, 12)
-                .padding(.vertical, 4)
-                .background(category.color.opacity(0.15), in: Capsule())
-
-            BMIGauge(bmi: bmi)
-                .padding(.top, 4)
-        }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 8)
-    }
-}
-
-/// Horizontal scale from BMI 15 to 40 with a marker at the current value.
-struct BMIGauge: View {
-    let bmi: Double
-    private let lower = 15.0
-    private let upper = 40.0
-
-    var body: some View {
-        VStack(spacing: 4) {
-            GeometryReader { geo in
-                let fraction = (min(max(bmi, lower), upper) - lower) / (upper - lower)
-                ZStack(alignment: .leading) {
-                    Capsule()
-                        .fill(LinearGradient(
-                            stops: [
-                                .init(color: .blue, location: 0),
-                                .init(color: .green, location: (18.5 - lower) / (upper - lower)),
-                                .init(color: .green, location: (25 - lower) / (upper - lower)),
-                                .init(color: .orange, location: (30 - lower) / (upper - lower)),
-                                .init(color: .red, location: 1),
-                            ],
-                            startPoint: .leading, endPoint: .trailing))
-                        .frame(height: 10)
-                    Circle()
-                        .fill(.white)
-                        .stroke(.primary, lineWidth: 2)
-                        .frame(width: 18, height: 18)
-                        .offset(x: fraction * (geo.size.width - 18))
-                        .animation(.snappy, value: bmi)
-                }
+                Circle()
+                    .fill(.white)
+                    .stroke(.primary, lineWidth: 2)
+                    .frame(width: 18, height: 18)
+                    .offset(x: fraction * (geo.size.width - 18))
+                    .animation(.snappy, value: bmi)
             }
-            .frame(height: 18)
-
-            GeometryReader { geo in
-                ForEach([15, 18.5, 25, 30, 40], id: \.self) { mark in
-                    Text(mark, format: .number)
-                        .fixedSize()
-                        .position(
-                            x: 9 + (mark - lower) / (upper - lower) * (geo.size.width - 18),
-                            y: geo.size.height / 2)
-                }
-            }
-            .frame(height: 14)
-            .font(.caption2)
-            .foregroundStyle(.secondary)
         }
+        .frame(height: 18)
     }
 }
 
