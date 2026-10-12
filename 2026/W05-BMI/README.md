@@ -7,7 +7,7 @@ a chybové stavy. Cvičení: BMI kalkulačka s barevně odlišenými kategoriemi
 
 | Skupina | Datum | Kód |
 |---|---|---|
-| `monday-sk-1/` — pondělí 10:00 | 12. 10. | `CircleGuess` (`ForEachFile-MANUAL.swift`: cyklus `ForEach` psaný ručně – klepnutím hledáte správný index · `CircleGuessGameView.swift`: hra na hádání kruhu od agenta) |
+| `monday-sk-1/` — pondělí 10:00 | 12. 10. | `CircleGuess` (`ForEachFile-MANUAL.swift`: cyklus `ForEach` psaný ručně – klepnutím hledáte správný index · `CircleGuessGameView.swift`: hra na hádání kruhu od agenta) · `BMICalculator` (`BMICalculatorApp.swift`: BMI kalkulačka od agenta – posuvníky, metrické/imperiální jednotky, barevné kategorie, `@Binding` v `LabeledSlider` · `TextField-Slider-MANUAL.swift`: `TextField` a `Slider` psané ručně) |
 | `monday-sk-2/` — pondělí 14:00 | 12. 10. | (zatím nenahráno) |
 | `tuesday-sk-1/` — úterý 10:00 | 13. 10. | (zatím nenahráno) |
 | `tuesday-sk-2/` — úterý 15:00 | 13. 10. | (zatím nenahráno) |
