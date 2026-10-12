@@ -60,7 +60,7 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 | Skupina | Datum | Co probereme | Stav |
 |---|---|---|:---:|
 | `monday-sk-1` · Po 10:00 | 12. 10. | Ručně: cyklus `ForEach` (hádání správného indexu), `TextField`, `Slider`. Od agenta (Claude Code): hra na hádání kruhu a BMI kalkulačka (posuvníky, barevné kategorie, `@Binding`), obojí jsme spolu prošli v code review | ✅ |
-| `monday-sk-2` · Po 14:00 | 12. 10. | BMI kalkulačka: `Form`, `@Binding`, validace vstupu | ○ |
+| `monday-sk-2` · Po 14:00 | 12. 10. | Ručně: cyklus `ForEach`, `@Binding` (předání `$counter` do jiného view), `TextField`, `Slider`, `SecureField`, alert. Od agenta (Claude Code): BMI kalkulačka (`Form`, jednotky, posuvníky, barevná škála), prošli jsme ji v code review | ✅ |
 | `tuesday-sk-1` · Út 10:00 | 13. 10. | Práce s agentem, pak BMI kalkulačka | ○ |
 | `tuesday-sk-2` · Út 15:00 | 13. 10. | Práce s agentem, pak BMI kalkulačka | ○ |
 | `thursday-sk-1` · Čt 16:00 | 15. 10. | BMI kalkulačka | ○ |
