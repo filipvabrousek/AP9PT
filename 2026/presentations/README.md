@@ -20,4 +20,4 @@ Kód ze cvičení — včetně kombinovaného studia — je v týdenních složk
 | TestFlight, App Store a distribuce | k samostudiu | `AP9PT-11-testflight-distribuce.pptx` |  |
 
 Přednáška je od 13. 10. o týden napřed před cvičením – připravuje lab příštího týdne.
-Poslední přednáška je 24. 11. Ve slotech přednášky 1. 12., 8. 12. a 15. 12. se pracuje na semestrálním projektu; 15. 12. začíná 1. termínem testu (12:00–12:25, test 20 min), pak se pracuje na projektu. Prezentace 10 a 11 budou sloučeny do jedné.
+Poslední přednáška je 24. 11. Ve slotech přednášky 1. 12., 8. 12. a 15. 12. se pracuje na semestrálním projektu; V posledním týdnu (14.–17. 12.) je každý den jeden termín testu (20 min), časy upřesníme. Prezentace 10 a 11 budou sloučeny do jedné.
