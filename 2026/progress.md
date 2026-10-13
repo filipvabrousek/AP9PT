@@ -197,4 +197,5 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 - Hry na hádání kruhu napsal agent Claude (Claude Code); vaší prací je je přečíst, ověřit a vysvětlit.
 - Swift concurrency (`async`/`await`, `Task`) a `Codable` (původně plánované na 2. týden) jsme přesunuli do 9. týdne (Weather).
 - **Ručně** = krátký příklad, který píšeme spolu bez agenta. Sada ručních příkladů je v každém týdnu stejná pro všechny skupiny.
-- Všechno, včetně semestrálního projektu, děláme **ve škole** – doma na Macu pracovat nemusíte. Termín obhajob upřesníme.
+- Všechno, včetně semestrálního projektu, děláme **ve škole** – doma na Macu pracovat nemusíte.
+- **Předmět ukončíte buď testem, nebo projektem** (obhajoba). 1. termín testu je Út 15. 12. ve 12:00, další termíny testu i obhajob upřesníme.
