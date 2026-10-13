@@ -1,6 +1,6 @@
 # W05 — BMI kalkulačka
 
-*Slovo $\color{orange}\textsf{agenta}$ oranžově = tuhle část kódu napsal agent (Claude Code); ostatní jste psali ručně.*
+Slovo $\color{orange}\textsf{agenta}$ oranžově = tuhle část kódu napsal agent (Claude Code); ostatní jste psali ručně.
 
 **Týden 5 · 12.–16. 10. 2026** · fáze 2 — *naučit se zadávat* (kód píše agent, vy ho čtete a schvalujete)
 

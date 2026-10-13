@@ -1,6 +1,6 @@
 # W03 — SwiftUI základy a první hra od agenta
 
-*Slovo $\color{orange}\textsf{agenta}$ oranžově = tuhle část kódu napsal agent (Claude Code); ostatní jste psali ručně.*
+Slovo $\color{orange}\textsf{agenta}$ oranžově = tuhle část kódu napsal agent (Claude Code); ostatní jste psali ručně.
 
 **Týden 3 · 28. 9.–2. 10. 2026** · fáze 1 → fáze 2
 

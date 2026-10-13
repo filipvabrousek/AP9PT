@@ -1,6 +1,6 @@
 # W04 — Stav aplikace a první práce s agentem
 
-*Slovo $\color{orange}\textsf{agenta}$ oranžově = tuhle část kódu napsal agent (Claude Code); ostatní jste psali ručně.*
+Slovo $\color{orange}\textsf{agenta}$ oranžově = tuhle část kódu napsal agent (Claude Code); ostatní jste psali ručně.
 
 **Týden 4 · 5.–9. 10. 2026** · přechod z fáze 1 do fáze 2
 
