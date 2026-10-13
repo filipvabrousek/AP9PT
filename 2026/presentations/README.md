@@ -16,7 +16,8 @@ Kód ze cvičení — včetně kombinovaného studia — je v týdenních složk
 | SwiftData | 3. 11. | `AP9PT-07-swiftdata.pptx` |  |
 | App Intents | 10. 11. | `AP9PT-08-app-intents.pptx` |  |
 | AI v aplikaci: Foundation Models a evaly | 24. 11. | `AP9PT-09-ai-v-aplikaci.pptx` |  |
-| Jedna aplikace, čtyři platformy | 1. 12. | `AP9PT-10-multiplatform.pptx` |  |
-| TestFlight, App Store a distribuce | 8. 12. | `AP9PT-11-testflight-distribuce.pptx` |  |
+| Jedna aplikace, čtyři platformy | k samostudiu | `AP9PT-10-multiplatform.pptx` |  |
+| TestFlight, App Store a distribuce | k samostudiu | `AP9PT-11-testflight-distribuce.pptx` |  |
 
 Přednáška je od 13. 10. o týden napřed před cvičením – připravuje lab příštího týdne.
+Poslední přednáška je 24. 11. Ve slotech přednášky 1. 12., 8. 12. a 15. 12. se pracuje na semestrálním projektu; 15. 12. je zároveň 1. termín. Prezentace 10 a 11 budou sloučeny do jedné.

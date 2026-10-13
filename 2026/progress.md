@@ -19,7 +19,7 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 | `tuesday-sk-2` · Út 15:00 | 🟩 Swift základy | odpadlo | odpadlo | 🟩 `@State` ručně, $\color{orange}\textsf{agent}$ příště | 🟩 hra a BMI od $\color{orange}\textsf{agenta}$; ručně `@Binding`, `ForEach`, `TextField`, BMI se `Slider`y, alert | ⬜ ručně sdílení dat (`@EnvironmentObject`, `@Observable`); TODO od $\color{orange}\textsf{agenta}$, úpravy ručně | ⬜ Weather od $\color{orange}\textsf{agenta}$ (první PRD); ručně todo list z fake JSON API | ⬜ Notes: PRD → $\color{orange}\textsf{agent}$ → test → oprava; ručně `NavigationStack` | ⬜ Recipe Book od $\color{orange}\textsf{agenta}$, test restartu; ručně `@Model`, `@Query` | svátek 17.&nbsp;11. | ⬜ Journal Summariser od $\color{orange}\textsf{agenta}$, eval; ručně `LanguageModelSession`, `AppIntent` | ⬜ Notes na 4 platformách od $\color{orange}\textsf{agenta}$; ručně `#if os(...)` | ⬜ semestrální projekt s $\color{orange}\textsf{agentem}$ (1/2) | ⬜ semestrální projekt s $\color{orange}\textsf{agentem}$ (2/2), odevzdání |
 | `thursday-sk-1` · Čt 16:00 | 🟩 první SwiftUI app | odpadlo | 🟩 `@State`, hra od $\color{orange}\textsf{agenta}$ | děkanské volno | ⬜ BMI od $\color{orange}\textsf{agenta}$; ručně `@Binding`, `ForEach`, `TextField`, BMI se `Slider`em | ⬜ ručně sdílení dat (`@EnvironmentObject`, `@Observable`); TODO od $\color{orange}\textsf{agenta}$, úpravy ručně | ⬜ Weather od $\color{orange}\textsf{agenta}$ (první PRD); ručně todo list z fake JSON API | ⬜ Notes: PRD → $\color{orange}\textsf{agent}$ → test → oprava; ručně `NavigationStack` | ⬜ Recipe Book od $\color{orange}\textsf{agenta}$, test restartu; ručně `@Model`, `@Query` | ⬜ Habit Tracker od $\color{orange}\textsf{agenta}$; ručně `AppIntent` | ⬜ Journal Summariser od $\color{orange}\textsf{agenta}$, eval; ručně `LanguageModelSession` | ⬜ Notes na 4 platformách od $\color{orange}\textsf{agenta}$; ručně `#if os(...)` | ⬜ semestrální projekt s $\color{orange}\textsf{agentem}$ (1/2) | ⬜ semestrální projekt s $\color{orange}\textsf{agentem}$ (2/2), odevzdání |
 | `kombi` | – | – | 🟩 views, `@State`, hra od $\color{orange}\textsf{agenta}$ (2.&nbsp;10.) | – | – | – | ⬜ sobotní blok 2 (týdny 4–7), termín upřesníme | – | – | – | – | ⬜ sobotní blok 3 (týdny 8–12), termín upřesníme | – | ⬜ termín upřesníme |
-| Přednáška · Út 12:00 | 🟩 úvod, Swift základy | odpadla | odpadla | 🟩 `@State`, review hry od $\color{orange}\textsf{agenta}$ | 🟩 `@Observable`, `List`, sheet | ⬜ síť: `async`/`await`, `Codable` | ⬜ `NavigationStack`, jak psát PRD | ⬜ SwiftData: `@Model`, `@Query` | ⬜ App Intents | svátek 17.&nbsp;11. | ⬜ Foundation Models, evaly | ⬜ multiplatform, `#if os`, App Group | ⬜ TestFlight a distribuce | ⬜ upřesníme |
+| Přednáška · Út 12:00 | 🟩 úvod, Swift základy | odpadla | odpadla | 🟩 `@State`, review hry od $\color{orange}\textsf{agenta}$ | 🟩 `@Observable`, `List`, sheet | ⬜ síť: `async`/`await`, `Codable` | ⬜ `NavigationStack`, jak psát PRD | ⬜ SwiftData: `@Model`, `@Query` | ⬜ App Intents | svátek 17.&nbsp;11. | ⬜ Foundation Models, evaly | ⬜ práce na projektu s $\color{orange}\textsf{agentem}$ | ⬜ práce na projektu s $\color{orange}\textsf{agentem}$ | ⬜ práce na projektu + 1. termín |
 
 ## Podrobně po týdnech
 
@@ -166,7 +166,7 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 | `tuesday-sk-2` · Út 15:00 | 1. 12. | Cross-platform Notes: iOS, watchOS, visionOS a macOS z jednoho modelu. Ručně: `#if os(...)` | ⬜ |
 | `thursday-sk-1` · Čt 16:00 | 3. 12. | Cross-platform Notes: iOS, watchOS, visionOS a macOS z jednoho modelu. Ručně: `#if os(...)` | ⬜ |
 | `kombi` | upřesníme | Sobotní blok 3 (týdny 8–12) | ⬜ |
-| Přednáška · Út 12:00 | 1. 12. | Target membership, `#if os(...)`, sdílení dat mezi targety (App Group), UI pro jednotlivé platformy | ⬜ |
+| Přednáška · Út 12:00 | 1. 12. | Místo přednášky práce na semestrálním projektu (konzultace) | ⬜ |
 
 ## Týden 13 · 7.–11. 12. · Semestrální projekt (1/2)
 
@@ -178,7 +178,7 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 | `tuesday-sk-2` · Út 15:00 | 8. 12. | Semestrální projekt ve škole: specifikace, práce s agentem | ⬜ |
 | `thursday-sk-1` · Čt 16:00 | 10. 12. | Semestrální projekt ve škole: specifikace, práce s agentem | ⬜ |
 | `kombi` | – | – | – |
-| Přednáška · Út 12:00 | 8. 12. | Poslední přednáška: TestFlight a distribuce; jak proběhne obhajoba | ⬜ |
+| Přednáška · Út 12:00 | 8. 12. | Místo přednášky práce na semestrálním projektu (konzultace) | ⬜ |
 
 ## Týden 14 · 14.–18. 12. · Semestrální projekt (2/2)
 
@@ -190,7 +190,7 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 | `tuesday-sk-2` · Út 15:00 | 15. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ⬜ |
 | `thursday-sk-1` · Čt 16:00 | 17. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ⬜ |
 | `kombi` | upřesníme | Termín upřesníme | ⬜ |
-| Přednáška · Út 12:00 | 15. 12. | Upřesníme | ⬜ |
+| Přednáška · Út 12:00 | 15. 12. | Práce na semestrálním projektu a zároveň **1. termín** | ⬜ |
 
 ---
 
