@@ -5,6 +5,8 @@ struct ContentView: View {
     @State private var newTitle = ""
     @FocusState private var isInputFocused: Bool
 
+    @State var isShown = false
+    
     var body: some View {
         NavigationStack {
             List {
@@ -20,8 +22,11 @@ struct ContentView: View {
                                 .font(.title2)
                         }
                         .buttonStyle(.borderless)
-                        .disabled(trimmedTitle.isEmpty)
+                       // .disabled(trimmedTitle.isEmpty)
                         .accessibilityLabel("Add to-do")
+                        .alert(isPresented: $isShown){
+                            Alert(title: Text("Hello"))
+                        }
                     }
                 }
 
@@ -72,6 +77,10 @@ struct ContentView: View {
     }
 
     private func addTodo() {
+        if trimmedTitle.isEmpty {
+            isShown.toggle()
+        }
+        
         guard !trimmedTitle.isEmpty else { return }
         withAnimation {
             store.add(trimmedTitle)
