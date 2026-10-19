@@ -10,3 +10,4 @@ Co se učíme: sdílení dat mezi views (`@EnvironmentObject` a `@Observable`), 
 | Skupina | Datum | Kód |
 |---|---|---|
 | `monday-sk-1/` — pondělí 10:00 | 19. 10. | `Observable-sheet-MANUAL` (`MyApp.swift`: sdílený model s `@Observable` předaný přes `.environment` dvěma views, sheet otevřený z modelu přes `@Bindable` a zavřený `dismiss()`, vypočítaná vlastnost – psané ručně) · `TodoList` (TODO aplikace od agenta 🟠 – `@Observable` úložiště, `List`, mazání tahem, přidávání nahoře v seznamu) |
+| `monday-sk-2/` — pondělí 14:00 | 19. 10. | `Todos` (TODO aplikace od agenta 🟠 – `TodoStore` jako starší `ObservableObject` předaný přes `.environmentObject`, odškrtnutí, přeškrtnutí hotových, počet zbývajících, „Clear Done“, přesouvání a mazání tahem, přidávání nahoře v seznamu) |
