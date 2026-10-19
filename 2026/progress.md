@@ -5,7 +5,7 @@ v týdenní složce, ve složce své skupiny (např. `W04-State/monday-sk-2/`); 
 
 🟩 hotovo · ⬜ plánováno · – bez výuky
 
-*Aktualizováno 15. 10. 2026.*
+*Aktualizováno 19. 10. 2026.*
 
 ## Kde je která skupina – celý semestr
 
