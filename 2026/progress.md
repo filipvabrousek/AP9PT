@@ -194,7 +194,7 @@ V tomto týdnu je **každý den jeden termín testu** (20 min). Časy upřesním
 | `tuesday-sk-2` · Út 15:00 | 15. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ⬜ |
 | `thursday-sk-1` · Čt 16:00 | 17. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ⬜ |
 | `kombi` | upřesníme | Termín upřesníme | ⬜ |
-| Přednáška · Út 12:00 | 15. 12. | Práce na semestrálním projektu | ⬜ |
+| Přednáška · Út 12:00 | 15. 12. | Otázky ke státní závěrečné zkoušce (iOS jako platforma; návrh UI – Storyboard, UIKit, SwiftUI), pak práce na semestrálním projektu | ⬜ |
 
 ---
 
