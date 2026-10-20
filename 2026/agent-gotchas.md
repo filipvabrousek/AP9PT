@@ -10,13 +10,14 @@ Obsahuje jen to, co už jsme probrali (týdny 1–6); s každým dalším témat
 
 ## 0. Pravidlo číslo jedna: porovnejte výsledek se zadáním
 
-Všechny tři skupiny, které v týdnu 6 dostaly **stejný** prompt na TODO aplikaci, dostaly kód, který zadání porušil – a pokaždé jinak:
+Všechny skupiny, které v týdnu 6 dostaly **stejný** prompt na TODO aplikaci, dostaly kód, který zadání porušil – a pokaždé jinak:
 
 | skupina | co agent ze zadání vynechal nebo porušil |
 |---|---|
 | `monday-sk-1` | žádné `isDone` ani odškrtnutí, žádný sheet, model se nepředává přes `.environment` |
 | `monday-sk-2` | použil `ObservableObject`, i když prompt výslovně říkal *„No ObservableObject“*; žádný sheet |
 | `tuesday-sk-1` | `@Observable` ano, ale model vlastní `ContentView` a nepředává ho dál; žádný sheet |
+| `tuesday-sk-2` | totéž jako `tuesday-sk-1`: `@Observable` a odškrtnutí ano, ale model vlastní `ContentView` bez `.environment`; žádný sheet |
 
 Agent to nikde nepřizná – shrnutí na konci zní, jako by bylo hotovo všechno.
 
