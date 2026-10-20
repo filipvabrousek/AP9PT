@@ -4,10 +4,16 @@ struct ContentView: View {
     @State private var store = TodoStore()
     @State private var newTitle = ""
     @FocusState private var isInputFocused: Bool
-
+    @State var show = false
+    
     var body: some View {
         NavigationStack {
             List {
+                Text("Task count \(store.items.count)")
+                
+                Text("Done tasks  \(store.items.filter {$0.isDone}.count) / \(store.items.count)")
+                // Number of done tasks from the total task count
+                
                 Section {
                     HStack {
                         TextField("Add a task", text: $newTitle)
@@ -20,8 +26,11 @@ struct ContentView: View {
                                 .font(.title2)
                         }
                         .buttonStyle(.borderless)
-                        .disabled(newTitle.trimmingCharacters(in: .whitespaces).isEmpty)
+                        //.disabled(newTitle.trimmingCharacters(in: .whitespaces).isEmpty)
                         .accessibilityLabel("Add task")
+                        .alert(isPresented: $show){
+                            Alert(title: Text("Please enter some text"))
+                        }
                     }
                 }
 
@@ -65,6 +74,11 @@ struct ContentView: View {
     }
 
     private func addItem() {
+        
+        if newTitle.isEmpty {
+            show.toggle()
+        }
+        
         store.add(newTitle)
         newTitle = ""
         isInputFocused = true
