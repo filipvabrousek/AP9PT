@@ -4,7 +4,8 @@ struct ContentView: View {
     @State private var store = TodoStore()
     @State private var newTitle = ""
     @FocusState private var isInputFocused: Bool
-
+    @State var showAlert = false
+    
     var body: some View {
         NavigationStack {
             List {
@@ -14,10 +15,15 @@ struct ContentView: View {
                             .focused($isInputFocused)
                             .submitLabel(.done)
                             .onSubmit(addTodo)
+                        
+                        // On button click with newTitle empty => Show alert
                         Button("Add", systemImage: "plus.circle.fill", action: addTodo)
                             .labelStyle(.iconOnly)
                             .font(.title2)
-                            .disabled(newTitle.trimmingCharacters(in: .whitespaces).isEmpty)
+                            .alert(isPresented: $showAlert){
+                                Alert(title: Text("Fill-in data"))
+                            }
+                           // .disabled(newTitle.trimmingCharacters(in: .whitespaces).isEmpty)
                     }
                 }
 
@@ -52,6 +58,11 @@ struct ContentView: View {
     }
 
     private func addTodo() {
+        if newTitle.isEmpty {
+            showAlert.toggle()
+            return
+        }
+        
         store.add(newTitle)
         newTitle = ""
         isInputFocused = true
