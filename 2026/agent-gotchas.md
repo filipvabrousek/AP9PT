@@ -4,13 +4,13 @@ Agent (Claude Code) napíše za minutu aplikaci, která se přeloží a vypadá 
 Tenhle dokument sbírá chyby, které agent v tomhle semestru opravdu udělal, a co ověřit, než jeho kód schválíte.
 Obsahuje jen to, co už jsme probrali (týdny 1–6); s každým dalším tématem se doplní.
 
-*Aktualizováno 20. 10. 2026 (po týdnu 6).*
+*Aktualizováno 22. 10. 2026 (po týdnu 6).*
 
 ---
 
 ## 0. Pravidlo číslo jedna: porovnejte výsledek se zadáním
 
-Všechny skupiny, které v týdnu 6 dostaly **stejný** prompt na TODO aplikaci, dostaly kód, který zadání porušil – a pokaždé jinak:
+Všechny skupiny, které v týdnu 6 dostaly **stejný** prompt na TODO aplikaci, dostaly kód, který zadání porušil – a skoro pokaždé jinak:
 
 | skupina | co agent ze zadání vynechal nebo porušil |
 |---|---|
@@ -18,6 +18,7 @@ Všechny skupiny, které v týdnu 6 dostaly **stejný** prompt na TODO aplikaci,
 | `monday-sk-2` | použil `ObservableObject`, i když prompt výslovně říkal *„No ObservableObject“*; žádný sheet |
 | `tuesday-sk-1` | `@Observable` ano, ale model vlastní `ContentView` a nepředává ho dál; žádný sheet |
 | `tuesday-sk-2` | totéž jako `tuesday-sk-1`: `@Observable` a odškrtnutí ano, ale model vlastní `ContentView` bez `.environment`; žádný sheet |
+| `thursday-sk-1` | stejně jako `monday-sk-2` použil starší `ObservableObject` s `@Published` (vlastněný přes `@StateObject` v `ContentView`), i když prompt výslovně říkal *„No ObservableObject“*; model nepředává přes `.environment`; žádný sheet |
 
 Agent to nikde nepřizná – shrnutí na konci zní, jako by bylo hotovo všechno.
 
